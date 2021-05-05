@@ -1,0 +1,13750 @@
+body{ 
+    margin: 0px;
+    padding: 0px;
+    font-family: The roman, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-image: url(Images/pozadina%202.png);
+    background:white;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+    
+h1, h2, h3, h4, h5, h6 {
+    font-family: The roman, Arial, Helvetica, sans-serif;
+}
+
+h1 {font-size: 36px}
+
+h2 {font-size: 30px}
+
+h3 {font-size: 26px}
+
+h4 {font-size: 24px}
+
+h5 {font-size: 20px}
+
+h6 {font-size: 18px}
+
+p {
+    font-family: The new roman, Arial, Helvetica, sans-serif; 
+    font-size: 14px;
+}
+
+#wrapper{
+    
+    background: #1f425d;
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+}
+     
+#header{
+    width: 100%;
+    background: #c7ebf3;
+    height: 100%; 
+    margin: 0px;
+    animation: header-change infinite 0s ease;
+}
+
+@keyframes header-change {
+    
+    0%{ background: #303030;}
+    
+    0%{ background: #019ac4;}
+    
+    0%{ background: #92409d;}
+    
+    0%{ background: #234f9a;}
+    
+    0%{ background: #b61a3f;}
+}
+
+#footer{
+    
+    color: black;
+    text-align: center;
+    clear:both;
+} 
+
+
+
+.h1, h1{
+    
+    color: #ff4e00;
+    padding: 15px 0px 15px 30px;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Kaushan Script', cursive, arial, helvetica, sans-serif;
+    font-size:26px;
+  
+}
+
+h4{
+    
+    color: #ff4e00;
+    font-family: 'Kaushan Script', cursive, arial, helvetica, sans-serif;
+    font-size:26px;
+    text-align-last: center;
+}
+
+.span{
+    
+    color: #31912b;
+    margin: 0px 0px 20px 0px;
+}
+
+.span1{
+    
+    color: #e22371;
+    margin: 0px 0px 20px 0px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-banner{
+    
+    width: 468px;
+    height:60px;
+    background: white;
+    position: absolute;
+    left: auto;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    margin: 20px 110px 0px 0px;
+    
+}
+
+#nav{
+    
+    margin: 0px 0px 0px 0px;
+    background: #184d66;
+    height: 50px;
+    padding: 0px 15px 0px 290px;
+}
+  
+#nav ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}   
+
+#nav ul li{
+    
+   display: inline-block;
+   position: relative;
+}  
+
+#nav ul li a{
+   
+    padding: 15px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    display: block;
+}  
+
+#nav ul li a:link,
+#nav ul li a:visited {
+    
+    
+    color: white;
+    text-decoration: none;
+    background: #184d66;
+}  
+
+#nav ul li a:hover {
+    
+    color: white;
+    text-decoration: none;
+    background: #fb5d2e;
+}  
+
+#nav ul li a:active {
+    
+    color: black;
+    text-decoration: none;
+    background: #fb5d2e;
+} 
+
+#nav ul li ul {
+    
+    position: absolute;
+    top: 100%;
+    width: 140px;
+    display: none; 
+    padding: 0px;
+    
+}
+
+#nav ul li:hover > ul {
+    
+    display: block;  
+}
+    
+#nav ul li ul li{
+    
+   display: block;
+}
+
+#nav ul li ul li:hover ul{
+    
+ display: block;
+ 
+    
+}
+
+#nav ul li ul li ul{
+    
+    top: 0px;
+    left: 100%;
+}
+
+#nav ul li ul li ul li{
+   
+    top: 0px;
+    left:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainmain{
+
+   color: white;
+}
+
+#main{
+   
+    background: #1f425d;
+    height: 100%;
+    width: 100%;
+    padding: 2px 0px;
+}
+
+#main, h3{
+    
+   color: #ff4e00;
+   font-family: 'Kaushan Script', cursive, arial, helvetica, sans-serif;
+   
+    
+}
+
+.mainmain{
+   
+    font-family: ;
+    text-align: start;
+    margin: 0px 20px;
+    font-size: 16px;
+
+}
+
+a i{
+   
+    font-size: 17px;
+    color: #fcaa31;
+}
+
+
+#main, span{
+   
+    color: #31912b;
+}
+
+#main, span1{
+   
+    color: #e22371;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* home index*/
+
+
+.claimhome{
+
+    height: 50px;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+} 
+
+#main-mainhome ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}   
+
+#main-mainhome ul li{
+    
+   display: inline-block;
+   position: relative;
+}  
+
+#main-mainhome ul li a{
+   
+    padding: 10px 20px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    left: 0px;
+    right: 50px;
+    bottom: 0px;
+    top: 0px;
+    display: block;
+    border: 2px solid #d8e2dd;
+}  
+
+#main-mainhome ul li a:link,
+#main-mainhome ul li a:visited {
+    
+    color: white;
+    text-decoration: none;
+    background: #184d66;
+}  
+
+#main-mainhome ul li a:hover {
+    
+    color: white;
+    text-decoration: none;
+    background: #fb5d2e;
+}  
+
+#main-mainhome ul li a:active {
+    
+    color: black;
+    text-decoration: none;
+    background: #fb5d2e;
+} 
+
+#main-mainhome {
+   
+    
+    height: 100%;
+    padding: 20px 52px;
+    margin:0px;
+    background:#1f425d;
+    display: block;
+    text-align: center;
+    border-bottom: 5px solid #d8e2dd;
+    border-top: 5px solid #d8e2dd;
+
+}
+
+
+#main-mainhome h2{
+   
+    color: #e1f45a;
+    font-family: Times new Roman;
+    text-align: center;
+    margin: 5px;
+  
+   
+}
+
+#main-mainhome p{
+   
+    color: white;
+    font-family: Helvetica;
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+.homes{
+
+   
+  color:#f9d406;
+  font-size:22px;
+   
+}
+
+
+/* end home index */
+
+
+
+
+
+/*script*/
+
+
+        .slideshow-container {
+        width: 100%;
+        margin:0px 0px -46px 0px;
+        padding: 76px 0px 0px 0px ;
+        border-color: black;
+        background: #cce7e8;
+            
+        }
+
+        .slider_img {
+        width:800px  ;
+        height: 350px;
+        margin: 0 auto;
+       
+        }
+    
+        .slider_img img{
+        width: 800px;
+        height 30px;
+        display: block;
+        margin: 0 auto;
+            
+        }
+    
+        .textdesc {
+        width: 760px;
+        display: block;
+        margin: 0 auto;
+        padding: 23px 20px;
+        text-align: right;
+        background: #BBB;
+        font-size: 16px;
+             
+        }
+    
+/* Next & previous buttons */
+    
+        .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 712%;
+        width: auto;
+        padding:  16px;
+        margin-top: 0px;
+        color: plum;
+        font-weight: bold;
+        font-size: 18px;
+        user-select: none;
+        background: plum;
+            
+        }
+
+        .prev {
+            
+        position: absolute;
+        right: 97%;
+            
+        }
+
+        .prev, 
+        :link {
+        color: blue;
+        }
+    
+        .prev, 
+        :visited {
+        color: blue;
+        }
+
+        .prev:hover {
+        background-color: purple; 
+        }
+    
+        .prev:active {
+        background-color: purple;  
+        }
+        
+/* Position the "next button" to the right */
+    
+        .next {
+        right: 0;
+        border-radius: 4px 0 0 4px;   
+        }
+    
+        .next, 
+        :link {
+        color: blue;
+        }
+    
+        .next, 
+        :visited {
+        color: blue;
+        }
+
+        .next:hover {
+        background-color: purple; 
+        }
+    
+        .next:active {
+        background-color: purple;  
+        }
+
+/* Caption text */ 
+    
+        .text {
+        color: black;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: relative;
+        bottom: 8px;
+        width: 100%;
+     
+            
+        }
+
+/* The dots/bullets/indicators */
+    
+        .dot {
+        cursor: pointer;
+        height: 20px;
+        width: 20px;
+        margin: 20px 1px 20px 1px;
+        background-color: #bbb;
+        border-radius: 70%;
+        display: inline-block;
+        position: relative;
+        bottom: 0px; 
+            
+        }
+
+        .active, .dot:hover {
+        background-color: green;
+            
+        }
+
+        .dot:hover {
+        background-color: red;
+            
+            
+        }
+
+
+    .mySlides fade{
+        
+    width: 200px;
+    height: 50px;
+}
+    
+    .link{
+
+    height: 20px;
+    position: relative;
+    right: 315px;
+
+} 
+
+
+
+
+
+
+/* script */ 
+
+
+.crypto{
+
+    text-align: center;
+    color: #e0ff2b;
+    margin: 0px 0px 51px 0px;
+    font-family: cursive;
+}
+
+
+/*back to top button */
+
+#button {
+  display: inline-block;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s; 
+  opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #1f425d;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #22aee6;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+/* end back to top button */
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+ 
+
+#footer{
+    
+    background:#002166;
+    height: 100%;
+    clear: both;
+    color: white;
+    font-size: 20px;
+    padding: 25px 40px 0px 40px;
+    margin: 20px 150px 0px 0xp;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#footer h3{
+    
+    color: #ff4e00;
+    padding: 7px 0px 0px 20px;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Kaushan Script', cursive, arial, helvetica, sans-serif;
+    font-size:26px;
+}
+
+
+#footer p{
+
+    font-family: Verdana;
+    font-size: 14px;
+    color: #fff;
+    padding: 0px 0px 20px 0px;
+    margin: 10px;
+}
+
+#footer a{
+
+    color: white;
+}
+
+#footer a:link
+#footer a:visited{
+
+    color: white;
+}
+
+#footer a:hover{
+
+    color: white;
+}
+
+#footer a:active{
+
+    color: white;
+}
+
+.copy{
+
+    
+    font-size: 30px;
+    
+}
+
+/*end footer*/
+
+
+
+
+
+
+
+
+
+
+
+/*social media*/
+
+
+.spanfooter{
+
+   color: #e0ff2b;
+   font-size: 16px;
+   font-family: cursive;
+     
+}
+
+.spanfacebook{
+
+   color: green;
+   font-size: 28px;
+    
+}
+
+.spanfacebook a i{
+
+   color: lightblue;
+   font-size: 28px;
+    
+}
+
+.spaninstagram{
+
+   color: blue;
+   font-size: 28px;
+    
+}
+
+.spaninstagram a i{
+
+   color: #db5451;
+   font-size: 28px;
+    
+}
+
+.spantwitter{
+
+   color: blue;
+   font-size: 28px;
+    
+}
+
+.spantwitter a i{
+
+   color: #32aadb;
+   font-size: 28px;
+    
+}
+
+.spanvk{
+
+   color: blue;
+   font-size: 28px;
+    
+}
+
+.spanvk a i{
+
+   color: #2787f5;
+   font-size: 28px;
+    
+}
+
+.spantelegram{
+
+   color: aqua;
+   font-size: 28px;
+    
+}
+
+.spantelegram a i{
+
+   color:#3e94cc;
+   font-size: 28px;
+    
+}
+
+.spanpinterest{
+
+   color: aqua;
+   font-size: 28px;
+    
+}
+
+.spanpinterest a i{
+
+   color:#e60023;
+   font-size: 28px;
+    
+}
+
+.spanlinkedin{
+
+   color: aqua;
+   font-size: 28px;
+    
+}
+
+.spanlinkedin a i{
+
+   color:#0a66c2;
+   font-size: 28px;
+    
+}
+
+.spanquora{
+
+   color: aqua;
+   font-size: 28px;
+    
+}
+
+.spanquora a i{
+
+   color:#b92b27;
+   font-size: 28px;
+    
+}
+
+.spanquora{
+
+   color: aqua;
+   font-size: 28px;
+    
+}
+
+.spanquora a i{
+
+   color:#b92b27;
+   font-size: 28px;
+    
+}
+
+.spanyoutube{
+
+   color: aqua;
+   font-size: 28px;
+    
+}
+
+.spanyoutube a i{
+
+   color:#ff0101;
+   font-size: 28px;
+    
+}
+
+.spandiscord{
+
+   color: aqua;
+   font-size: 28px;
+    
+}
+
+.spandiscord a i{
+
+   color:#768edb;
+   font-size: 28px;
+    
+}
+
+.spanblogger{
+
+   color: aqua;
+   font-size: 28px;
+    
+}
+
+.spanblogger a i{
+
+   color:#f57c00;
+   font-size: 28px;
+    
+}
+
+
+/*end social media*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*new social media*/
+
+
+.spansftyou{
+
+   color: aqua;
+   font-size: 28px;
+    
+}
+
+.spansftyou a i{
+
+   color:#712ea1;
+   font-size: 28px;
+    
+}
+
+.spanwishoo{
+
+   color: aqua;
+   font-size: 28px;
+    
+}
+
+.spanwishoo a i{
+
+   color:#f75249;
+   font-size: 28px;
+    
+}
+
+.spanblebleto{
+
+   color: aqua;
+   font-size: 28px;
+    
+}
+
+.spanblebleto a i{
+
+   color:#3f78c2;
+   font-size: 28px;
+    
+}
+
+.spanuhive{
+
+   color: aqua;
+   font-size: 28px;
+    
+}
+
+.spanuhive a i{
+
+   color:#2979ff;
+   font-size: 28px;
+    
+}
+
+.spanziktalk{
+
+   color: aqua;
+   font-size: 28px;
+    
+}
+
+.spanziktalk a i{
+
+   color:#00b6c7;
+   font-size: 28px;
+    
+}
+
+.spancrypto{
+
+   color: aqua;
+   font-size: 28px;
+    
+}
+
+.spancrypto a i{
+
+   color:#2295d4;
+   font-size: 28px;
+     
+}
+
+
+/*end new social media*/
+
+
+
+
+/* copyright */
+
+#reserved{
+
+    background: #031843;
+    color: #fff;
+    font-family: Verdana;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    margin:-16px 0px -16px 0px;
+}
+
+#reserved p{
+    
+    font-family: Verdana;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 0px 25px 0px;
+
+}
+
+
+/* end copyright */
+
+
+
+
+
+
+
+
+
+
+
+/* nav-nav */
+
+
+#nav-nav{
+    
+    background: #184d66;
+    height: 50px;
+    clear: both;
+    margin: 0px;
+    padding: 0px 15px 0px 290px;
+
+}
+
+#nav-nav ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none; 
+} 
+
+#nav-nav ul li{
+    
+   display: inline-block;
+ 
+}  
+
+#nav-nav ul li a{
+    
+    padding: 15px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+
+}  
+
+#nav-nav ul li a:link,
+#nav-nav ul li a:visited {
+    
+    background: #184d66;
+    color: white;
+    text-decoration: none;
+}  
+
+#nav-nav ul li a:hover {
+    
+    color: white;
+    text-decoration: none;
+    background: #fb5d2e;
+}  
+
+#nav-nav ul li a:active {
+    
+    color: white;
+    text-decoration: none;
+    background: #fb5d2e;
+} 
+
+
+/* end nav-nav */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* email 2020 */
+
+/* email 1 milion */
+
+/* email world */
+
+#main1 {
+    
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    margin: 20px 0px;
+    
+    float: left;
+}
+
+#main1 h5{
+    
+   padding: 20px 0px 40px 0px;
+   text-align:center;
+}
+
+#main1{
+    
+    font-family: cursive,Helvetica,Verdana,sans-serif;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+#main1 h2{
+    
+    font-family: cursive,sans-serif;
+    color: #d2fa09;
+    margin: 20px 0 30px;
+    padding: 0px;
+    text-align: center;
+
+}
+
+
+.link20{
+    
+    width: 250px;
+    height: 60px;
+    font-size: 22px; 
+    background: red;
+    list-style: none;
+    text-align: center;
+    display: block;
+    padding:0px;
+    margin: 0px 0px 0px 24px;
+
+}
+
+.american{
+
+   margin:0px 0px 0px 70px;
+ 
+}
+
+.america{
+    
+  display:inline-block;
+  float:left;
+ 
+}
+
+.banner1200x100{
+    
+    width:1200px;
+    height:100px;
+    background:white;
+    display:block;
+    margin:0px 0px 20px 233px; 
+}
+
+.link2020{
+    
+    width: 250px;
+    height: 60px;
+    font-size: 24px; 
+    background: red;
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    padding:0px;
+    margin: 20px 0px 0px 0px;
+    display:inline-block;
+
+}
+
+#main1 ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none; 
+} 
+
+#main1 ul li{
+    
+   display: block;
+}  
+
+#main1 ul li a{
+   
+    padding: 10px 45.4px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+}  
+
+#main1 ul li a:link,
+#main1 ul li a:visited {
+    
+    background: #184d66;
+    color: white;
+    text-decoration: none;
+}  
+
+#main1 ul li a:hover {
+    
+    color: white;
+    text-decoration: none;
+    background: orange;
+}  
+
+#main1 ul li a:active {
+    
+    color: white;
+    text-decoration: none;
+    background: orange;
+} 
+
+
+/* end email 2020 */
+
+/* end email 1 milion */
+
+/* end email world */
+
+
+
+
+
+
+
+/* email 2020 */
+
+/* email 1 milion a-z*/
+
+/* email world */
+
+#maina{
+    
+    width: 790px;
+    height: 100%;
+    padding: 0px 20px 30px 20px;
+    margin: 20px 0px 60px 426px;
+    background: #73c3d1;
+    float: left;
+    
+}
+
+#maina h2{
+    
+    font-family: cursive,sans-serif;
+    color: #d2fa09;
+    margin: 20px 0 30px;
+    padding: 0px;
+    text-align: center;
+    font-size:30px;
+
+}
+
+.response{
+
+    color: black;
+    font-size: 24px;
+    font-family: cursive,sans-serif;
+    margin:  0px;
+    padding: 15px 0px 10px 10px;
+} 
+
+.gogle2 {
+    
+    width: 728px;
+    height: 90px;
+    background: white;
+    color: black;
+    margin: 35px 20px 40px 30px;
+    float: left;
+}
+
+#article1 {
+    
+    width: 1600px;
+    height: 300px;
+    background: white;
+    color: black;
+    margin: 0px 10px 30px 33px;
+    float: left; 
+} 
+
+/* end email 2020 */
+
+/* end email 1 milion a-z*/
+
+/* end email world */
+
+
+
+
+
+
+
+
+
+.e {
+    
+    font-size: 24px;
+    text-align: center;
+}
+
+#main, h5{
+    
+    font-size: 30px;
+    color: purple;
+    text-align: center;
+}
+
+#main, p{
+    
+    color: black;
+}
+
+
+
+
+
+
+
+
+/* contextual */
+
+
+#card {
+    
+    
+    justify-content:space-between;
+    margin: 0px;
+
+}
+
+.card {
+    
+    flex-basis:400;
+    margin: 30px 15px 30px 15px;
+    padding: 0px;
+    text-align: center;
+
+}
+
+
+.card p{
+    
+    background: white;
+    border: 2px solid #003352;
+    color:black;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 16px 5px;
+    width: 210px;
+}
+
+
+/* end contextual */
+
+
+/* airdrop */
+
+
+#airdrops{
+    
+    font-family: cursive;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+#airdrops h2{
+    
+    font-family: cursive,sans-serif;
+    color: #d2fa09;
+    padding: 0px;
+    text-align: center;
+    margin:0px 0px 0px 0px;
+
+}
+
+#airdrops p{
+     
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    margin: 0px 30px 20px 10px;
+}
+
+#mainairdrop{
+    
+    width: 750px;
+    height: 100%;
+    padding: 0px 15px;
+    position: relative;
+    left:330px;
+    float: left;
+}
+
+
+.main-main1{
+    
+   width: 740px;
+   height: 100%;
+   background: white;
+   padding: 10px 20px 80px 20px;
+   margin: 0px 0px 40px 445px;
+   display: block;
+} 
+
+
+.main-main1 h3{
+    
+   color: purple;
+   font-family: cursive;
+   text-align: center;
+   
+} 
+
+.main-main1, p{
+    
+   font-size:16px;
+   
+} 
+
+.claim1{
+
+    height: 50px;
+    position: relative;
+    left: 298px;
+    bottom: 10px;
+
+} 
+
+.main-main1 ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}   
+
+.main-main1 ul li{
+    
+   display: inline-block;
+   position: absolute;
+}  
+
+.main-main1 ul li a{
+   
+    padding: 10px 20px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    display: block;
+}  
+
+.main-main1 ul li a:link,
+.main-main1 ul li a:visited {
+    
+    color: white;
+    text-decoration: none;
+    background: #184d66;
+}  
+
+.main-main1 ul li a:hover {
+    
+    color: white;
+    text-decoration: none;
+    background: #fb5d2e;
+}  
+
+.main-main1 ul li a:active {
+    
+    color: black;
+    text-decoration: none;
+    background: #fb5d2e;
+} 
+
+.banner1200{
+    
+    width:1200px;
+    height:100px;
+    background:white;
+    display:block;
+    margin:0px 0px 45px 225px;
+}
+
+
+/* end airdrop */
+
+
+
+
+
+
+
+
+
+
+/* crypto games */
+
+
+#games{
+    
+    font-family: cursive;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+#games h2{
+    
+    font-family: cursive,sans-serif;
+    color: #d2fa09;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+    text-align: center;
+
+}
+
+#games p{
+     
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    margin: 0px 20px 20px 20px;
+ 
+}
+
+#products {
+  
+    margin: 0px 2px 40px 0px;
+    
+}
+
+.product {
+    
+    margin: -2px 10px 60px 0px;
+    padding: 0px;
+    text-align:center;
+}
+
+.product p{
+    
+    background: #042f66;
+    border: 5px solid #ffd700;
+    color:white;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0px;
+    padding: 15px 5px;
+    width: 230px; 
+}
+
+.product p:hover{
+    
+    background: #ff4e00;
+    
+}
+
+.cryptoads {
+    
+    width:930px;
+    height: 170px;
+    background: white;
+    color: black;
+    margin: -20px 0px 82px 0px;
+    position: relative;
+    left: 0px;
+}
+
+.cryptoads:hover{
+    
+    background: white;
+    
+}
+
+
+/* end crypto games */
+
+
+
+
+
+
+
+
+
+
+
+/* crypto social media */
+
+
+#social{
+    
+    font-family: cursive,Helvetica,Verdana,sans-serif;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+#social h2{
+    
+    font-family: cursive,sans-serif;
+    color: #d2fa09;
+    margin: 20px 0 0 0;
+    padding: 0px;
+    text-align: center;
+
+}
+
+#social p{
+     
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    margin: 0px 20px 20px 20px;
+ 
+}
+
+#main productt {
+    
+    background: white;
+        
+}
+
+#productss {
+    
+    margin: 0px 0px 40px -70px;
+    text-align: center;
+}
+
+.productt {
+    
+    margin: -2px 10px 60px 33px;
+    padding: 0px;
+    text-align:center;
+}
+
+.productt p{
+    
+    background: #042f66;
+    border: 5px solid #645eaf;
+    color:white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px;
+    padding: 15px 5px;
+    width: 230px;
+    margin:auto;
+
+}
+
+.productt p:hover{
+    
+    background: orange;
+}
+
+.socialads {
+    
+    width: 930px;
+    height: 170px;
+    background: white;
+    color: black;
+    margin: -20px 0px 82px 0px;
+    position: relative;
+    left:370px;
+    font-size:14px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.socialads:hover{
+    
+    background: white;
+    
+}
+
+
+/* end crypto social media */
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* web shop */
+
+/* end web shop */
+
+
+
+
+/* contractsof$1000 */
+
+/* end contractsof$1000 */
+
+
+
+
+/* advertising */
+
+/* end advertising */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BaNNer */ 
+
+
+#gift {
+    
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.baner81x31 {
+    
+    width: 81px;
+    height: 31px;
+    background: white;
+    margin: 15px 5px 25px 31px;
+    float: left;
+}
+
+.baner100x100 {
+    
+    width: 100px;
+    height: 100px;
+    background: white;
+    margin: 15px 5px 25px 31px;
+    float: left;
+}
+
+.baner125x125 {
+    
+    width: 125px;
+    height: 125px;
+    background: white;
+    margin: 20px 5px 25px 50px;
+    float: left;
+}
+
+.baner150x150{
+    
+    width: 150px;
+    height: 150px;
+    background: white;
+    margin: 20px 5px 25px 27px;
+    float: left;
+}
+
+.baner180x150{
+    
+    width: 150px;
+    height: 150px;
+    background: white;
+    margin: 20px 5px 25px 27px;
+    float: left;
+}
+
+.baner234x60 {
+    
+    width: 234px;
+    height: 60px;
+    background: white;
+    margin: 20px 10px 25px 30px;
+    float: left;
+}
+
+.baner240x60 {
+    
+    width: 240px;
+    height: 60px;
+    background: white;
+    margin: 20px 5px 25px 28px;
+    float: left;
+}
+
+.baner200x200 {
+    
+    width: 200px;
+    height: 200px;
+    background: white;
+    margin: 20px 20px 25px 52px;
+    float: left;
+}
+
+.baner250x250 {
+    
+    width: 250px;
+    height: 250px;
+    background: white;
+    margin: 20px 15px 25px 60px;
+    float: left;
+}
+
+.baner200x300 {
+    
+    width: 200px;
+    height: 300px;
+    background: white;
+    margin: 20px 0px 25px 32px;
+    float: left;
+}
+
+.baner250x300 {
+    
+    width: 250px;
+    height: 300px;
+    background: white;
+    margin: 20px 0px 25px 23px;
+    float: left;
+}
+
+.baner240x400{
+    
+    width: 240px;
+    height: 400px;
+    background: white;
+    margin: 20px 10px 25px 25px;
+    float: left;
+}
+
+.baner300x250 {
+    
+    width: 300px;
+    height: 250px;
+    background: white;
+    margin: 20px 5px 25px 23.5px;
+    float: left;
+}
+
+.baner350x50 {
+    
+    width: 350px;
+    height: 50px;
+    background: white;
+    margin: 20px 5px 25px 49px;
+    float: left;
+}
+
+.baner336x280 {
+    
+    width: 336px;
+    height: 280px;
+    background: white;
+    margin: 20px 5px 25px 62px;
+    float: left;
+}
+
+.baner336x280 {
+    
+    width: 336px;
+    height: 280px;
+    background: white;
+    margin: 20px 5px 25px 62px;
+    float: left;
+}
+
+.baner468x60 {
+    
+    width: 468px;
+    height: 60px;
+    background: white;
+    margin: 20px 30px 25px 50px;
+    float: left;
+}
+
+.baner468x80 {
+    
+    width: 468px;
+    height: 80px;
+    background: white;
+    margin: 20px 30px 25px 50px;
+    float: left;
+}
+
+.baner728x90 {
+    
+    width: 728px;
+    height: 90px;
+    background: white;
+    margin: 20px 10px 25px 67px;
+    float: left;
+
+}
+
+.baner728x300 {
+    
+    width: 728px;
+    height: 300px;
+    background: white;
+    margin: 20px 10px 25px 67px;
+    float: left;
+
+}
+
+.baner80x468 {
+    
+    width: 80px;
+    height: 468px;
+    background: white;
+    margin: 20px 17px 25px 21.2px;
+    float: left;
+}
+
+.baner120x60 {
+    
+    width: 120px;
+    height: 60px;
+    background: white;
+    margin: 20px 10px 25px 34px;
+    float: left;
+}
+
+.baner120x90 {
+
+    width: 120px;
+    height: 90px;
+    background: white;
+    margin: 20px 10px 25px 34px;
+    float: left;
+}
+
+.baner120x240 {
+
+    width: 120px;
+    height: 240px;
+    background: white;
+    margin: 20px 10px 25px 34px;
+    float: left;
+}
+
+.baner120x600 {
+    
+    width: 120px;
+    height: 600px;
+    background: white;
+    margin: 20px 17px 25px 28px;
+    float: left;
+}
+
+.baner160x600 {
+    
+    width: 160px;
+    height: 600px;
+    background: white;
+    margin: 20px 10px 25px 61px;
+    float: left;
+}
+
+.baner300x600 {
+    
+    width: 300px;
+    height: 600px;
+    background: white;
+    margin: 20px 10px 25px 87px;
+    float: left;
+}
+
+.baner930x170 {
+    
+    width: 930px;
+    height: 170px;
+    background: white;
+    margin: 20px 10px 25px 365px;
+    float: left;
+}
+
+.baner1000x90 {
+    
+    width: 1000px;
+    height: 90px;
+    background: white;
+    margin: 20px 20px 25px 130px;
+    float: left;
+}
+
+.baner1170x100 {
+    
+    width: 1170px;
+    height: 100px;
+    background: white;
+    margin: 20px 20px 25px 245px;
+    float: left;
+}
+
+.baner1200x100 {
+    
+    width: 1200px;
+    height: 100px;
+    background: white;
+    margin: 20px 20px 25px 225px;
+    float: left;
+}
+
+/* end BaNNer */ 
+
+
+
+
+
+
+
+/* contact */
+
+
+
+#main-maincontact1{
+ 
+    margin: 0px 0px 50px 0px;
+    
+} 
+
+#main-maincontact1 h2{
+    
+    text-align:center;
+    font-size: 26px;
+    margin: 0px 0px 0px 0px;
+    color: yellow;
+    
+} 
+
+#main-maincontact1 p{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 22px;
+    color: white;
+    padding:0 0 0 10px;
+    
+}
+
+
+/* end contact */
+
+
+
+
+
+
+
+
+
+/* use policy */
+
+
+#usepolicy{
+ 
+    margin: 0px 0px 50px 0px;
+    
+} 
+
+#usepolicy h2{
+    
+    text-align:center;
+    font-size: 26px;
+    margin: 0px 0px 0px 0px;
+    color: yellow;
+    
+} 
+
+#usepolicy h6{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 24px;
+    padding:0 0 0 20px;
+    color:orange;
+    
+} 
+
+#usepolicy p{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 22px;
+    color: white;
+    padding:0 0 0 20px;
+    
+} 
+
+
+
+/* end use policy */
+
+
+
+
+/* questionsandanswers */
+
+
+#questionsandanswers{
+ 
+    margin: 0px 0px 50px 0px;
+    
+} 
+
+#questionsandanswers h2{
+    
+    text-align:center;
+    font-size: 26px;
+    margin: 0px 0px 0px 0px;
+    color: yellow;
+    
+} 
+
+#questionsandanswers h6{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 24px;
+    padding:0 0 0 20px;
+    color:#f8f;
+    
+} 
+
+#questionsandanswers p{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 22px;
+    color: white;
+    padding:0 0 0 20px;
+    
+} 
+
+
+/* end questionsandanswers */
+
+
+
+
+
+
+/* rules */
+
+
+
+#rules{
+ 
+    margin: 0px 0px 50px 0px;
+    
+} 
+
+#rules h2{
+    
+    text-align:center;
+    font-size: 26px;
+    margin: 0px 0px 0px 0px;
+    color: yellow;
+    
+} 
+
+#rules h6{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 24px;
+    padding:0 0 0 20px;
+    color:gold;
+    
+} 
+
+#rules p{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 22px;
+    color: white;
+    padding:0 0 0 20px;
+    
+}
+
+
+
+/* end rules */
+
+
+
+
+
+a:link
+a:visited{
+   
+    color: black;
+} 
+
+
+a:hover
+a:active{
+   
+    color: aqua;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media 1201 */
+
+@media screen and (min-width: 1201px) { 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  body{ 
+    margin: 0px;
+    padding: 0px;
+    font-family: The roman, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-image: url(Images/pozadina%202.png);
+    background:white;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+    
+h1, h2, h3, h4, h5, h6 {
+    font-family: The roman, Arial, Helvetica, sans-serif;
+}
+
+h1 {font-size: 36px}
+
+h2 {font-size: 30px}
+
+h3 {font-size: 26px}
+
+h4 {font-size: 24px}
+
+h5 {font-size: 20px}
+
+h6 {font-size: 18px}
+
+p {
+    font-family: The new roman, Arial, Helvetica, sans-serif; 
+    font-size: 14px;
+}
+
+#wrapper{
+    
+    background: #1f425d;
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+}
+     
+#header{
+    width: 100%;
+    background: #c7ebf3;
+    height: 100%; 
+    margin: 0px;
+    animation: header-change infinite 0s ease;
+}
+
+@keyframes header-change {
+    
+    0%{ background: #303030;}
+    
+    0%{ background: #019ac4;}
+    
+    0%{ background: #92409d;}
+    
+    0%{ background: #234f9a;}
+    
+    0%{ background: #b61a3f;}
+}
+
+#footer{
+    
+    color: black;
+    text-align: center;
+    clear:both;
+} 
+
+
+
+.h1, h1{
+    
+    color: #ff4e00;
+    padding: 15px 0px 15px 30px;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Kaushan Script', cursive, arial, helvetica, sans-serif;
+    font-size:20px;
+  
+}
+
+h4{
+    
+    color: #ff4e00;
+    font-family: 'Kaushan Script', cursive, arial, helvetica, sans-serif;
+    font-size:20px;
+    text-align-last: center;
+}
+
+.span{
+    
+    color: #31912b;
+    margin: 0px 0px 20px 0px;
+}
+
+.span1{
+    
+    color: #e22371;
+        margin: 0px 0px 20px 0px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-banner{
+    
+    width: 468px;
+    height:60px;
+    background: white;
+    position: absolute;
+    left: auto;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    margin: 15px 20px 0px 0px;
+    font-size: 16px;
+    
+}
+
+#nav{
+    
+    margin: 0px 0px 0px 0px;
+    background: #184d66;
+    height: 50px;
+    padding: 0px 0px 0px 0px;
+    
+}
+  
+#nav ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}   
+
+#nav ul li{
+    
+   display: inline-block;
+   position: relative;
+}  
+
+#nav ul li a{
+   
+    padding: 15px 5px 15px 5px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    display: block;
+    font-size:12px;
+}  
+
+#nav ul li a:link,
+#nav ul li a:visited {
+    
+    
+    color: white;
+    text-decoration: none;
+    background: #184d66;
+}  
+
+#nav ul li a:hover {
+    
+    color: white;
+    text-decoration: none;
+    background: #fb5d2e;
+}  
+
+#nav ul li a:active {
+    
+    color: black;
+    text-decoration: none;
+    background: #fb5d2e;
+} 
+
+#nav ul li ul {
+    
+    position: absolute;
+    top: 100%;
+    width: 140px;
+    display: none; 
+    padding: 0px;
+    
+}
+
+#nav ul li:hover > ul {
+    
+    display: block;  
+}
+    
+#nav ul li ul li{
+    
+   display: block;
+}
+
+#nav ul li ul li:hover ul{
+    
+ display: block;
+ 
+    
+}
+
+#nav ul li ul li ul{
+    
+    top: 0px;
+    left: 100%;
+}
+
+#nav ul li ul li ul li{
+   
+    top: 0px;
+    left:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainmain{
+
+   color: white;
+}
+
+#main{
+   
+    background: #1f425d;
+    height: 100%;
+    width: 100%;
+    padding: 2px 0px;
+}
+
+#main, h3{
+    
+   color: #ff4e00;
+   font-family: 'Kaushan Script', cursive, arial, helvetica, sans-serif;
+   font-size:20px;
+    
+}
+
+.mainmain{
+   
+    font-family: ;
+    text-align: start;
+    margin: 0px 20px;
+    font-size: 16px;
+
+}
+
+a i{
+   
+    font-size: 17px;
+    color: #fcaa31;
+}
+
+
+#main, span{
+   
+    color: #31912b;
+}
+
+#main, span1{
+   
+    color: #e22371;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* home index*/
+
+
+.claimhome{
+
+    height: 40px;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+} 
+
+#main-mainhome ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}   
+
+#main-mainhome ul li{
+    
+   display: inline-block;
+   position: relative;
+}  
+
+#main-mainhome ul li a{
+   
+    padding: 8px 15px;
+    height: 15px;
+    line-height: 15px;
+    position: relative;
+    left: 0px;
+    right: 50px;
+    bottom: 0px;
+    top: 0px;
+    display: block;
+    border: 2px solid #d8e2dd;
+}  
+
+#main-mainhome ul li a:link,
+#main-mainhome ul li a:visited {
+    
+    color: white;
+    text-decoration: none;
+    background: #184d66;
+}  
+
+#main-mainhome ul li a:hover {
+    
+    color: white;
+    text-decoration: none;
+    background: #fb5d2e;
+}  
+
+#main-mainhome ul li a:active {
+    
+    color: black;
+    text-decoration: none;
+    background: #fb5d2e;
+} 
+
+#main-mainhome {
+   
+    
+    height: 100%;
+    padding: 20px 52px;
+    margin:0px;
+    background:#1f425d;
+    display: block;
+    text-align: center;
+    border-bottom: 4px solid #d8e2dd;
+    border-top: 4px solid #d8e2dd;
+
+}
+
+
+#main-mainhome h2{
+   
+    color: #e1f45a;
+    font-family: Times new Roman;
+    text-align: center;
+    margin: 5px;
+    font-size: 24px;
+  
+   
+}
+
+#main-mainhome p{
+   
+    color: white;
+    font-family: Helvetica;
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+.homes{
+
+   
+  color:#f9d406;
+  font-size:20px;
+   
+}
+
+
+/* end home index */
+
+
+
+
+
+/*script*/
+
+
+        .slideshow-container {
+        width: 100%;
+        margin:0px 0px -46px 0px;
+        padding: 76px 0px 0px 0px ;
+        border-color: black;
+        background: #cce7e8;
+            
+        }
+
+        .slider_img {
+        width:800px  ;
+        height: 350px;
+        margin: 0 auto;
+       
+        }
+    
+        .slider_img img{
+        width: 800px;
+        height 30px;
+        display: block;
+        margin: 0 auto;
+            
+        }
+    
+        .textdesc {
+        width: 760px;
+        display: block;
+        margin: 0 auto;
+        padding: 23px 20px;
+        text-align: right;
+        background: #BBB;
+        font-size: 16px;
+             
+        }
+    
+/* Next & previous buttons */
+    
+        .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 465%;
+        width: auto;
+        padding:  16px;
+        margin-top: 0px;
+        color: plum;
+        font-weight: bold;
+        font-size: 18px;
+        user-select: none;
+        background: plum;
+            
+        }
+
+        .prev {
+            
+        position: absolute;
+        right: 96%;
+            
+        }
+
+        .prev, 
+        :link {
+        color: blue;
+        }
+    
+        .prev, 
+        :visited {
+        color: blue;
+        }
+
+        .prev:hover {
+        background-color: purple; 
+        }
+    
+        .prev:active {
+        background-color: purple;  
+        }
+        
+/* Position the "next button" to the right */
+    
+        .next {
+        right: 0;
+        border-radius: 4px 0 0 4px;   
+        }
+    
+        .next, 
+        :link {
+        color: blue;
+        }
+    
+        .next, 
+        :visited {
+        color: blue;
+        }
+
+        .next:hover {
+        background-color: purple; 
+        }
+    
+        .next:active {
+        background-color: purple;  
+        }
+
+/* Caption text */ 
+    
+        .text {
+        color: black;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: relative;
+        bottom: 8px;
+        width: 100%;
+     
+            
+        }
+
+/* The dots/bullets/indicators */
+    
+        .dot {
+        cursor: pointer;
+        height: 20px;
+        width: 20px;
+        margin: 20px 1px 20px 1px;
+        background-color: #bbb;
+        border-radius: 70%;
+        display: inline-block;
+        position: relative;
+        bottom: 0px; 
+            
+        }
+
+        .active, .dot:hover {
+        background-color: green;
+            
+        }
+
+        .dot:hover {
+        background-color: red;
+            
+            
+        }
+
+
+    .mySlides fade{
+        
+    width: 200px;
+    height: 50px;
+}
+    
+    .link{
+
+    height: 20px;
+    position: relative;
+    right: 315px;
+
+} 
+
+
+
+
+
+
+/* script */ 
+
+
+.crypto{
+
+    text-align: center;
+    color: #e0ff2b;
+    margin: 10px 0px 51px 0px;
+    font-family: cursive;
+}
+
+
+/*back to top button */
+
+#button {
+  display: inline-block;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  transition: background-color .3s; 
+  opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 40px;
+  color: #1f425d;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #22aee6;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+/* end back to top button */
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+ 
+
+#footer{
+    
+    background:#002166;
+    height: 100%;
+    clear: both;
+    color: white;
+    font-size: 20px;
+    padding: 25px 40px 0px 40px;
+    margin: 20px 150px 0px 0xp;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#footer h3{
+    
+    color: #ff4e00;
+    padding: 7px 0px 0px 20px;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Kaushan Script', cursive, arial, helvetica, sans-serif;
+    font-size:24px;
+}
+
+
+#footer p{
+
+    font-family: Verdana;
+    font-size: 12px;
+    color: #fff;
+    padding: 0px 0px 20px 0px;
+    margin: 10px;
+}
+
+#footer a{
+
+    color: white;
+}
+
+#footer a:link
+#footer a:visited{
+
+    color: white;
+}
+
+#footer a:hover{
+
+    color: white;
+}
+
+#footer a:active{
+
+    color: white;
+}
+
+.copy{
+
+    
+    font-size: 30px;
+    
+}
+
+/*end footer*/
+
+
+
+
+
+
+
+
+
+
+
+/*social media*/
+
+
+.spanfooter{
+
+   color: #e0ff2b;
+   font-size: 16px;
+   font-family: cursive;
+     
+}
+
+.spanfacebook{
+
+   color: green;
+   font-size: 22px;
+    
+}
+
+.spanfacebook a i{
+
+   color: lightblue;
+   font-size: 22px;
+    
+}
+
+.spaninstagram{
+
+   color: blue;
+   font-size: 22px;
+    
+}
+
+.spaninstagram a i{
+
+   color: #db5451;
+   font-size: 22px;
+    
+}
+
+.spantwitter{
+
+   color: blue;
+   font-size: 22px;
+    
+}
+
+.spantwitter a i{
+
+   color: #32aadb;
+   font-size: 22px;
+    
+}
+
+.spanvk{
+
+   color: blue;
+   font-size: 22px;
+    
+}
+
+.spanvk a i{
+
+   color: #2787f5;
+   font-size: 22px;
+    
+}
+
+.spantelegram{
+
+   color: aqua;
+   font-size: 22px;
+    
+}
+
+.spantelegram a i{
+
+   color:#3e94cc;
+   font-size: 22px;
+    
+}
+
+.spanpinterest{
+
+   color: aqua;
+   font-size: 22px;
+    
+}
+
+.spanpinterest a i{
+
+   color:#e60023;
+   font-size: 22px;
+    
+}
+
+.spanlinkedin{
+
+   color: aqua;
+   font-size: 22px;
+    
+}
+
+.spanlinkedin a i{
+
+   color:#0a66c2;
+   font-size: 22px;
+    
+}
+
+.spanquora{
+
+   color: aqua;
+   font-size: 22px;
+    
+}
+
+.spanquora a i{
+
+   color:#b92b27;
+   font-size: 22px;
+    
+}
+
+.spanquora{
+
+   color: aqua;
+   font-size: 22px;
+    
+}
+
+.spanquora a i{
+
+   color:#b92b27;
+   font-size: 22px;
+    
+}
+
+.spanyoutube{
+
+   color: aqua;
+   font-size: 22px;
+    
+}
+
+.spanyoutube a i{
+
+   color:#ff0101;
+   font-size: 22px;
+    
+}
+
+.spandiscord{
+
+   color: aqua;
+   font-size: 22px;
+    
+}
+
+.spandiscord a i{
+
+   color:#768edb;
+   font-size: 22px;
+    
+}
+
+.spanblogger{
+
+   color: aqua;
+   font-size: 22px;
+    
+}
+
+.spanblogger a i{
+
+   color:#f57c00;
+   font-size: 22px;
+    
+}
+
+
+/*end social media*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*new social media*/
+
+
+.spansftyou{
+
+   color: aqua;
+   font-size: 22px;
+    
+}
+
+.spansftyou a i{
+
+   color:#712ea1;
+   font-size: 22px;
+    
+}
+
+.spanwishoo{
+
+   color: aqua;
+   font-size: 22px;
+    
+}
+
+.spanwishoo a i{
+
+   color:#f75249;
+   font-size: 22px;
+    
+}
+
+.spanblebleto{
+
+   color: aqua;
+   font-size: 22px;
+    
+}
+
+.spanblebleto a i{
+
+   color:#3f78c2;
+   font-size: 22px;
+    
+}
+
+.spanuhive{
+
+   color: aqua;
+   font-size: 22px;
+    
+}
+
+.spanuhive a i{
+
+   color:#2979ff;
+   font-size: 22px;
+    
+}
+
+.spanziktalk{
+
+   color: aqua;
+   font-size: 22px;
+    
+}
+
+.spanziktalk a i{
+
+   color:#00b6c7;
+   font-size: 22px;
+    
+}
+
+.spancrypto{
+
+   color: aqua;
+   font-size: 22px;
+    
+}
+
+.spancrypto a i{
+
+   color:#2295d4;
+   font-size: 22px;
+     
+}
+
+
+/*end new social media*/
+
+
+
+
+/* copyright */
+
+#reserved{
+
+    background: #031843;
+    color: #fff;
+    font-family: Verdana;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    margin:-16px 0px -16px 0px;
+}
+
+#reserved p{
+    
+    font-family: Verdana;
+    font-size: 14px;
+    color: #fff;
+    padding: 20px 0px 25px 0px;
+
+}
+
+
+/* end copyright */
+
+
+
+
+
+
+
+
+
+
+
+/* nav-nav */
+
+
+#nav-nav{
+    
+    background: #184d66;
+    height: 50px;
+    clear: both;
+    margin: 0px;
+    padding: 0px 15px 0px 0px;
+    font-size:12px;
+
+}
+
+#nav-nav ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none; 
+} 
+
+#nav-nav ul li{
+    
+   display: inline-block;
+ 
+}  
+
+#nav-nav ul li a{
+    
+    padding: 15px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+
+}  
+
+#nav-nav ul li a:link,
+#nav-nav ul li a:visited {
+    
+    background: #184d66;
+    color: white;
+    text-decoration: none;
+}  
+
+#nav-nav ul li a:hover {
+    
+    color: white;
+    text-decoration: none;
+    background: #fb5d2e;
+}  
+
+#nav-nav ul li a:active {
+    
+    color: white;
+    text-decoration: none;
+    background: #fb5d2e;
+} 
+
+
+/* end nav-nav */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* email 2020 */
+
+/* email 1 milion */
+
+/* email world */
+
+#main1 {
+    
+   
+    height: 100%;
+    padding: 0px;
+    margin: 20px 0px;
+    float: left;
+}
+
+#main1 h5{
+    
+   padding: 20px 0px 40px 0px;
+   text-align:center;
+}
+
+#main1{
+    
+    font-family: cursive,Helvetica,Verdana,sans-serif;
+    height: 100%;
+ 
+}
+
+#main1 h2{
+    
+    font-family: cursive,sans-serif;
+    color: #d2fa09;
+    margin: 20px 0 30px;
+    padding: 0px;
+    text-align: center;
+
+}
+
+
+.link20{
+    
+    width: 240px;
+    height: 60px;
+    font-size: 22px; 
+    background: red;
+    list-style: none;
+    text-align: center;
+    display: block;
+    padding:0px;
+    margin: 0px 0px 0px 24px;
+
+}
+
+.american{
+
+   margin:0px 0px 0px 40px;
+ 
+}
+
+.america{
+    
+  display:inline-block;
+  float:left;
+ 
+}
+
+.banner1200x100{
+    
+    width:1200px;
+    height:100px;
+    background:white;
+    display:block;
+    margin:0px 0px 45px 0px;
+}
+
+.link2020{
+    
+    width: 240px;
+    height: 60px;
+    font-size: 24px; 
+    background: red;
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    padding:0px;
+    margin: 20px 0px 0px 0px;
+    display:inline-block;
+
+}
+
+#main1 ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none; 
+} 
+
+#main1 ul li{
+    
+   display: block;
+}  
+
+#main1 ul li a{
+   
+    padding: 10px 45.4px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+}  
+
+#main1 ul li a:link,
+#main1 ul li a:visited {
+    
+    background: #184d66;
+    color: white;
+    text-decoration: none;
+}  
+
+#main1 ul li a:hover {
+    
+    color: white;
+    text-decoration: none;
+    background: orange;
+}  
+
+#main1 ul li a:active {
+    
+    color: white;
+    text-decoration: none;
+    background: orange;
+} 
+
+
+/* end email 2020 */
+
+/* end email 1 milion */
+
+/* end email world */
+
+
+
+
+
+
+
+/* email 2020 */
+
+/* email 1 milion a-z*/
+
+/* email world */
+
+#maina{
+    
+    width: 790px;
+    height: 100%;
+    padding: 0px 20px 30px 20px;
+    margin: 20px 0px 60px 170px;
+    background: #73c3d1;
+    float: left;
+    
+}
+    
+#maina h2{
+    
+    font-family: cursive,sans-serif;
+    color: #d2fa09;
+    margin: 20px 0 30px;
+    padding: 0px;
+    text-align: center;
+    font-size: 28px;
+
+}
+
+.response{
+
+    color: black;
+    font-size: 22px;
+    font-family: cursive,sans-serif;
+    margin: 0px;
+    padding: 15px 0px 10px 10px;
+} 
+
+.gogle2 {
+    
+    width: 728px;
+    height: 90px;
+    background: white;
+    color: black;
+    margin: 35px 20px 40px 30px;
+    float: left;
+}
+
+#article1 {
+    
+    width: 98%;
+    height: 300px;
+    background: white;
+    color: black;
+    margin: 0px 0px 30px 11px;
+    float: left; 
+} 
+
+/* end email 2020 */
+
+/* end email 1 milion a-z*/
+
+/* end email world */
+
+
+
+
+
+
+
+
+
+.e {
+    
+    font-size: 24px;
+    text-align: center;
+}
+
+#main, h5{
+    
+    font-size: 30px;
+    color: purple;
+    text-align: center;
+}
+
+#main, p{
+    
+    color: black;
+}
+
+
+
+
+
+
+
+
+/* contextual */
+
+
+#card {
+    
+    display: flex;
+    justify-content:space-between;
+    margin: 0px;
+    width: auto;
+
+}
+
+.card {
+    
+    flex-basis:400;
+    margin: 30px 15px 30px 15px;
+    padding: 0px;
+    text-align: center;
+
+}
+
+
+.card p{
+    
+    background: white;
+    border: 2px solid #003352;
+    color:black;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 16px 5px;
+    width: 110px;
+}
+
+
+/* end contextual */
+
+
+/* airdrop */
+
+
+#airdrops{
+    
+    font-family: cursive;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+#airdrops h2{
+    
+    font-family: cursive,sans-serif;
+    color: #d2fa09;
+    padding: 0px;
+    text-align: center;
+    margin:0px 0px 0px 0px;
+    font-size: 24px;
+
+}
+
+#airdrops p{
+     
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    margin: 10px 30px 20px 10px;
+}
+
+#mainairdrop{
+    
+    width: 750px;
+    height: 100%;
+    padding: 0px 15px;
+    position: relative;
+    left:330px;
+    float: left;
+}
+
+
+.main-main1{
+    
+   width: 740px;
+   height: 100%;
+   background: white;
+   padding: 10px 20px 80px 20px;
+   margin: 0px 0px 40px 210px;
+   display: block;
+} 
+
+
+.main-main1 h3{
+    
+   color: purple;
+   font-family: cursive;
+   text-align: center;
+   font-size: 24px;
+   
+} 
+
+.main-main1, p{
+    
+   font-size:14px;
+   
+} 
+
+.claim1{
+
+    height: 50px;
+    position: relative;
+    left: 298px;
+    bottom: 0px;
+} 
+
+.main-main1 ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}   
+
+.main-main1 ul li{
+    
+   display: inline-block;
+   position: absolute;
+}  
+
+.main-main1 ul li a{
+   
+    padding: 10px 20px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    display: block;
+}  
+
+.main-main1 ul li a:link,
+.main-main1 ul li a:visited {
+    
+    color: white;
+    text-decoration: none;
+    background: #184d66;
+}  
+
+.main-main1 ul li a:hover {
+    
+    color: white;
+    text-decoration: none;
+    background: #fb5d2e;
+}  
+
+.main-main1 ul li a:active {
+    
+    color: black;
+    text-decoration: none;
+    background: #fb5d2e;
+} 
+
+.banner1200{
+    
+    width:1200px;
+    height:100px;
+    background:white;
+    display:block;
+    margin:0px 0px 45px 0px;
+}
+
+
+/* end airdrop */
+
+
+
+
+
+
+
+
+
+
+
+
+/* crypto games */
+
+
+#games{
+    
+    font-family: cursive;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+#games h2{
+    
+    font-family: cursive,sans-serif;
+    color: #d2fa09;
+    margin: 20px 0px 10px 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 22px; 
+
+}
+
+#games p{
+     
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    margin: 0px 20px 20px 20px;
+ 
+}
+
+#main product {
+    
+    background: white;
+        
+}
+
+#products {
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 40px -70px;
+    
+    
+}
+
+.products, img{
+    
+    width: 150px;
+}
+    
+.product {
+    
+    flex-basis:100%;
+    margin: -2px 10px 60px 70px;
+    padding: 0px;
+}
+
+.product p{
+    
+    background: #042f66;
+    border: 4px solid #645eaf;
+    color:white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 5px;
+    width: 135px;
+    margin:auto;
+
+}
+
+.product p:hover{
+    
+    background: orange;
+}
+
+.cryptoads {
+    
+    width: 930px;
+    height: 170px;
+    background: white;
+    color: black;
+    margin: -20px 0px 82px 0px;
+    display: flex;
+    justify-content:space-between;
+    position: relative;
+    left: 130px;
+    
+}
+
+.cryptoads:hover{
+    
+    background: white;
+    
+}
+
+
+/* end crypto games */
+
+
+
+
+
+
+
+
+
+
+
+/* crypto social media */
+
+
+#social{
+    
+    font-family: cursive;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+#social h2{
+    
+    font-family: cursive,sans-serif;
+    color: #d2fa09;
+    margin: 20px 0px 10px 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 22px; 
+
+}
+
+#social p{
+     
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    margin: 0px 20px 20px 20px;
+ 
+}
+
+#main productt {
+    
+    background: white;
+        
+}
+
+#productss {
+    
+    display: block;
+    margin: 0px 0px 40px -70px;
+   
+}
+
+.productss, img{
+    
+    width: 150px;
+}
+    
+.productt {
+    
+    flex-basis:100%;
+    margin: -2px 10px 60px 70px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.productt p{
+    
+    background: #042f66;
+    border: 4px solid #645eaf;
+    color:white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 5px;
+    width: 135px;
+    margin:auto;
+
+}
+
+.productt p:hover{
+    
+    background: orange;
+}
+
+.socialads {
+    
+    width: 100%;
+    height: 170px;
+    background: white;
+    color: black;
+    margin: 0px 0px 82px 0px;
+    position: relative;
+    left:0px;
+    
+    
+}
+
+.socialads:hover{
+    
+    background: white;
+    
+}
+
+
+/* end crypto social media */
+
+  
+
+
+
+
+
+
+
+/* BaNNer */ 
+
+
+#gift {
+    
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.baner81x31 {
+    
+    width: 81px;
+    height: 31px;
+    background: white;
+    margin: 15px 5px 25px 31px;
+    float: left;
+}
+
+.baner100x100 {
+    
+    width: 100px;
+    height: 100px;
+    background: white;
+    margin: 15px 5px 25px 31px;
+    float: left;
+}
+
+.baner125x125 {
+    
+    width: 125px;
+    height: 125px;
+    background: white;
+    margin: 20px 5px 25px 50px;
+    float: left;
+}
+
+.baner150x150{
+    
+    width: 150px;
+    height: 150px;
+    background: white;
+    margin: 20px 5px 25px 27px;
+    float: left;
+}
+
+.baner180x150{
+    
+    width: 150px;
+    height: 150px;
+    background: white;
+    margin: 20px 5px 25px 27px;
+    float: left;
+}
+
+.baner234x60 {
+    
+    width: 234px;
+    height: 60px;
+    background: white;
+    margin: 20px 10px 25px 30px;
+    float: left;
+}
+
+.baner240x60 {
+    
+    width: 240px;
+    height: 60px;
+    background: white;
+    margin: 20px 5px 25px 28px;
+    float: left;
+}
+
+.baner200x200 {
+    
+    width: 200px;
+    height: 200px;
+    background: white;
+    margin: 20px 20px 25px 52px;
+    float: left;
+}
+
+.baner250x250 {
+    
+    width: 250px;
+    height: 250px;
+    background: white;
+    margin: 20px 15px 25px 60px;
+    float: left;
+}
+
+.baner200x300 {
+    
+    width: 200px;
+    height: 300px;
+    background: white;
+    margin: 20px 0px 25px 32px;
+    float: left;
+}
+
+.baner250x300 {
+    
+    width: 250px;
+    height: 300px;
+    background: white;
+    margin: 20px 0px 25px 23px;
+    float: left;
+}
+
+.baner240x400{
+    
+    width: 240px;
+    height: 400px;
+    background: white;
+    margin: 20px 10px 25px 25px;
+    float: left;
+}
+
+.baner300x250 {
+    
+    width: 300px;
+    height: 250px;
+    background: white;
+    margin: 20px 5px 25px 23.5px;
+    float: left;
+}
+
+.baner350x50 {
+    
+    width: 350px;
+    height: 50px;
+    background: white;
+    margin: 20px 5px 25px 49px;
+    float: left;
+}
+
+.baner336x280 {
+    
+    width: 336px;
+    height: 280px;
+    background: white;
+    margin: 20px 5px 25px 62px;
+    float: left;
+}
+
+.baner336x280 {
+    
+    width: 336px;
+    height: 280px;
+    background: white;
+    margin: 20px 5px 25px 62px;
+    float: left;
+}
+
+.baner468x60 {
+    
+    width: 468px;
+    height: 60px;
+    background: white;
+    margin: 20px 30px 25px 50px;
+    float: left;
+}
+
+.baner468x80 {
+    
+    width: 468px;
+    height: 80px;
+    background: white;
+    margin: 20px 30px 25px 50px;
+    float: left;
+}
+
+.baner728x90 {
+    
+    width: 728px;
+    height: 90px;
+    background: white;
+    margin: 20px 10px 25px 67px;
+    float: left;
+
+}
+
+.baner728x300 {
+    
+    width: 728px;
+    height: 300px;
+    background: white;
+    margin: 20px 10px 25px 67px;
+    float: left;
+
+}
+
+.baner80x468 {
+    
+    width: 80px;
+    height: 468px;
+    background: white;
+    margin: 20px 17px 25px 21.2px;
+    float: left;
+}
+
+.baner120x60 {
+    
+    width: 120px;
+    height: 60px;
+    background: white;
+    margin: 20px 10px 25px 34px;
+    float: left;
+}
+
+.baner120x90 {
+
+    width: 120px;
+    height: 90px;
+    background: white;
+    margin: 20px 10px 25px 34px;
+    float: left;
+}
+
+.baner120x240 {
+
+    width: 120px;
+    height: 240px;
+    background: white;
+    margin: 20px 10px 25px 34px;
+    float: left;
+}
+
+.baner120x600 {
+    
+    width: 120px;
+    height: 600px;
+    background: white;
+    margin: 20px 17px 25px 28px;
+    float: left;
+}
+
+.baner160x600 {
+    
+    width: 160px;
+    height: 600px;
+    background: white;
+    margin: 20px 10px 25px 61px;
+    float: left;
+}
+
+.baner300x600 {
+    
+    width: 300px;
+    height: 600px;
+    background: white;
+    margin: 20px 10px 25px 87px;
+    float: left;
+}
+
+.baner930x170 {
+    
+    width: 930px;
+    height: 170px;
+    background: white;
+    margin: 20px 10px 25px 45px;
+    float: left;
+}
+
+.baner1000x90 {
+    
+    width: 96%;
+    height: 90px;
+    background: white;
+    margin: 20px 20px 25px 20px;
+    float: left;
+}
+
+.baner1170x100 {
+    
+    width: 94%;
+    height: 100px;
+    background: white;
+    margin: 20px 20px 25px 30px;
+    float: left;
+}
+
+.baner1200x100 {
+    
+    width: 96%;
+    height: 100px;
+    background: white;
+    margin: 20px 20px 25px 20px;
+    float: left;
+}
+
+/* end BaNNer */ 
+
+
+
+
+
+
+
+/* contact */
+
+
+
+#main-maincontact1{
+ 
+    margin: 0px 0px 50px 0px;
+    
+} 
+
+#main-maincontact1 h2{
+    
+    text-align:center;
+    font-size: 26px;
+    margin: 0px 0px 0px 0px;
+    color: yellow;
+    
+} 
+
+#main-maincontact1 p{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 20px;
+    color: white;
+    padding:0 0 0 20px;
+    
+}
+
+
+/* end contact */
+
+
+
+
+
+
+
+
+
+/* use policy */
+
+
+#usepolicy{
+ 
+    margin: 0px 0px 50px 0px;
+    
+} 
+
+#usepolicy h2{
+    
+    text-align:center;
+    font-size: 24px;
+    margin: 0px 0px 0px 0px;
+    color: yellow;
+    
+} 
+
+#usepolicy h6{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 22px;
+    padding:0 0 0 20px;
+    
+} 
+
+#usepolicy p{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 20px;
+    color: white;
+    padding:0 0 0 20px;
+    
+} 
+
+
+/* end use policy */
+
+
+
+
+/* questionsandanswers */
+
+
+#questionsandanswers{
+ 
+    margin: 0px 0px 50px 0px;
+    
+} 
+
+#questionsandanswers h2{
+    
+    text-align:center;
+    font-size: 24px;
+    margin: 0px 0px 0px 0px;
+    color: yellow;
+    
+} 
+
+#questionsandanswers h6{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 22px;
+    padding:0 0 0 20px;
+    color:orange;
+    
+} 
+
+#questionsandanswers p{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 20px;
+    color: white;
+    padding:0 0 0 20px;
+    
+} 
+
+
+/* end questionsandanswers */
+
+
+
+
+
+
+/* rules */
+
+
+
+#rules{
+ 
+    margin: 0px 0px 50px 0px;
+    
+} 
+
+#rules h2{
+    
+    text-align:center;
+    font-size: 24px;
+    margin: 0px 0px 0px 0px;
+    color: yellow;
+    
+} 
+
+#rules h6{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 22px;
+    padding:0 0 0 20px;
+    color:gold;
+    
+} 
+
+#rules p{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 20px;
+    color: white;
+    padding:0 0 0 20px;
+    
+} 
+
+
+
+/* end rules */
+
+
+
+
+
+a:link
+a:visited{
+   
+    color: black;
+} 
+
+
+a:hover
+a:active{
+   
+    color: aqua;
+} 
+
+    
+    
+    
+    
+}
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+/* media 1024 - - 1200 */
+
+@media screen and (min-width: 1024px) and (max-width: 1200px){ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  body{ 
+    margin: 0px;
+    padding: 0px;
+    font-family: The roman, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-image: url(Images/pozadina%202.png);
+    background:white;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+    
+h1, h2, h3, h4, h5, h6 {
+    font-family: The roman, Arial, Helvetica, sans-serif;
+}
+
+h1 {font-size: 36px}
+
+h2 {font-size: 30px}
+
+h3 {font-size: 26px}
+
+h4 {font-size: 24px}
+
+h5 {font-size: 20px}
+
+h6 {font-size: 18px}
+
+p {
+    font-family: The new roman, Arial, Helvetica, sans-serif; 
+    font-size: 14px;
+}
+
+#wrapper{
+    
+    background: #1f425d;
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+}
+     
+#header{
+    width: 100%;
+    background: #c7ebf3;
+    height: 100%; 
+    margin: 0px;
+    animation: header-change infinite 0s ease;
+}
+
+@keyframes header-change {
+    
+    0%{ background: #303030;}
+    
+    0%{ background: #019ac4;}
+    
+    0%{ background: #92409d;}
+    
+    0%{ background: #234f9a;}
+    
+    0%{ background: #b61a3f;}
+}
+
+#footer{
+    
+    color: black;
+    text-align: center;
+    clear:both;
+} 
+
+
+
+.h1, h1{
+    
+    color: #ff4e00;
+    padding: 15px 0px 15px 30px;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Kaushan Script', cursive, arial, helvetica, sans-serif;
+    font-size:18px;
+  
+}
+
+h4{
+    
+    color: #ff4e00;
+    font-family: 'Kaushan Script', cursive, arial, helvetica, sans-serif;
+    font-size:18px;
+    text-align-last: center;
+}
+
+.span{
+    
+    color: #31912b;
+    margin: 0px 0px 20px 0px;
+}
+
+.span1{
+    
+    color: #e22371;
+        margin: 0px 0px 20px 0px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-banner{
+    
+    width: 468px;
+    height:60px;
+    background: white;
+    position: absolute;
+    left: auto;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    margin: 15px 20px 0px 0px;
+    font-size: 14px;
+    
+}
+
+#nav{
+    
+    margin: 0px 0px 0px 0px;
+    background: #184d66;
+    height: 50px;
+    padding: 0px 0px 0px 0px;
+    
+}
+  
+#nav ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}   
+
+#nav ul li{
+    
+   display: inline-block;
+   position: relative;
+}  
+
+#nav ul li a{
+   
+    padding: 15px 5px 15px 5px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    display: block;
+    font-size:12px;
+}  
+
+#nav ul li a:link,
+#nav ul li a:visited {
+    
+    
+    color: white;
+    text-decoration: none;
+    background: #184d66;
+}  
+
+#nav ul li a:hover {
+    
+    color: white;
+    text-decoration: none;
+    background: #fb5d2e;
+}  
+
+#nav ul li a:active {
+    
+    color: black;
+    text-decoration: none;
+    background: #fb5d2e;
+} 
+
+#nav ul li ul {
+    
+    position: absolute;
+    top: 100%;
+    width: 140px;
+    display: none; 
+    padding: 0px;
+    
+}
+
+#nav ul li:hover > ul {
+    
+    display: block;  
+}
+    
+#nav ul li ul li{
+    
+   display: block;
+}
+
+#nav ul li ul li:hover ul{
+    
+ display: block;
+ 
+    
+}
+
+#nav ul li ul li ul{
+    
+    top: 0px;
+    left: 100%;
+}
+
+#nav ul li ul li ul li{
+   
+    top: 0px;
+    left:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainmain{
+
+   color: white;
+}
+
+#main{
+   
+    background: #1f425d;
+    height: 100%;
+    width: 100%;
+    padding: 2px 0px;
+}
+
+#main, h3{
+    
+   color: #ff4e00;
+   font-family: 'Kaushan Script', cursive, arial, helvetica, sans-serif;
+   font-size:18px;
+    
+}
+
+.mainmain{
+   
+    font-family: ;
+    text-align: start;
+    margin: 0px 20px;
+    font-size: 16px;
+
+}
+
+a i{
+   
+    font-size: 17px;
+    color: #fcaa31;
+}
+
+
+#main, span{
+   
+    color: #31912b;
+}
+
+#main, span1{
+   
+    color: #e22371;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* home index*/
+
+
+.claimhome{
+
+    height: 40px;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+} 
+
+#main-mainhome ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}   
+
+#main-mainhome ul li{
+    
+   display: inline-block;
+   position: relative;
+}  
+
+#main-mainhome ul li a{
+   
+    padding: 8px 15px;
+    height: 15px;
+    line-height: 15px;
+    position: relative;
+    left: 0px;
+    right: 50px;
+    bottom: 0px;
+    top: 0px;
+    display: block;
+    border: 2px solid #d8e2dd;
+}  
+
+#main-mainhome ul li a:link,
+#main-mainhome ul li a:visited {
+    
+    color: white;
+    text-decoration: none;
+    background: #184d66;
+}  
+
+#main-mainhome ul li a:hover {
+    
+    color: white;
+    text-decoration: none;
+    background: #fb5d2e;
+}  
+
+#main-mainhome ul li a:active {
+    
+    color: black;
+    text-decoration: none;
+    background: #fb5d2e;
+} 
+
+#main-mainhome {
+   
+    
+    height: 100%;
+    padding: 20px 52px;
+    margin:0px;
+    background:#1f425d;
+    display: block;
+    text-align: center;
+    border-bottom: 4px solid #d8e2dd;
+    border-top: 4px solid #d8e2dd;
+
+}
+
+
+#main-mainhome h2{
+   
+    color: #e1f45a;
+    font-family: Times new Roman;
+    text-align: center;
+    margin: 5px;
+    font-size: 24px;
+  
+   
+}
+
+#main-mainhome p{
+   
+    color: white;
+    font-family: Helvetica;
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+.homes{
+
+   
+   color:#f9d406;
+  font-size:20px;
+   
+}
+
+
+/* end home index */
+
+
+
+
+
+/*script*/
+
+
+        .slideshow-container {
+        width: 100%;
+        margin:0px 0px -46px 0px;
+        padding: 76px 0px 0px 0px ;
+        border-color: black;
+        background: #cce7e8;
+            
+        }
+
+        .slider_img {
+        width:800px  ;
+        height: 350px;
+        margin: 0 auto;
+       
+        }
+    
+        .slider_img img{
+        width: 800px;
+        height 30px;
+        display: block;
+        margin: 0 auto;
+            
+        }
+    
+        .textdesc {
+        width: 760px;
+        display: block;
+        margin: 0 auto;
+        padding: 23px 20px;
+        text-align: right;
+        background: #BBB;
+        font-size: 16px;
+             
+        }
+    
+/* Next & previous buttons */
+    
+        .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 465%;
+        width: auto;
+        padding:  16px;
+        margin-top: 0px;
+        color: plum;
+        font-weight: bold;
+        font-size: 18px;
+        user-select: none;
+        background: plum;
+            
+        }
+
+        .prev {
+            
+        position: absolute;
+        right: 96%;
+            
+        }
+
+        .prev, 
+        :link {
+        color: blue;
+        }
+    
+        .prev, 
+        :visited {
+        color: blue;
+        }
+
+        .prev:hover {
+        background-color: purple; 
+        }
+    
+        .prev:active {
+        background-color: purple;  
+        }
+        
+/* Position the "next button" to the right */
+    
+        .next {
+        right: 0;
+        border-radius: 4px 0 0 4px;   
+        }
+    
+        .next, 
+        :link {
+        color: blue;
+        }
+    
+        .next, 
+        :visited {
+        color: blue;
+        }
+
+        .next:hover {
+        background-color: purple; 
+        }
+    
+        .next:active {
+        background-color: purple;  
+        }
+
+/* Caption text */ 
+    
+        .text {
+        color: black;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: relative;
+        bottom: 8px;
+        width: 100%;
+     
+            
+        }
+
+/* The dots/bullets/indicators */
+    
+        .dot {
+        cursor: pointer;
+        height: 20px;
+        width: 20px;
+        margin: 20px 1px 20px 1px;
+        background-color: #bbb;
+        border-radius: 70%;
+        display: inline-block;
+        position: relative;
+        bottom: 0px; 
+            
+        }
+
+        .active, .dot:hover {
+        background-color: green;
+            
+        }
+
+        .dot:hover {
+        background-color: red;
+            
+            
+        }
+
+
+    .mySlides fade{
+        
+    width: 200px;
+    height: 50px;
+}
+    
+    .link{
+
+    height: 20px;
+    position: relative;
+    right: 315px;
+
+} 
+
+
+
+
+
+
+/* script */ 
+
+
+.crypto{
+
+    text-align: center;
+    color: #e0ff2b;
+    margin: 10px 0px 51px 0px;
+    font-family: cursive;
+}
+
+
+/*back to top button */
+
+#button {
+  display: inline-block;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  transition: background-color .3s; 
+  opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 40px;
+  color: #1f425d;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #22aee6;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+/* end back to top button */
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+ 
+
+#footer{
+    
+    background:#002166;
+    height: 100%;
+    clear: both;
+    color: white;
+    font-size: 20px;
+    padding: 25px 40px 0px 40px;
+    margin: 20px 150px 0px 0xp;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#footer h3{
+    
+    color: #ff4e00;
+    padding: 7px 0px 0px 20px;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Kaushan Script', cursive, arial, helvetica, sans-serif;
+    font-size:24px;
+}
+
+
+#footer p{
+
+    font-family: Verdana;
+    font-size: 12px;
+    color: #fff;
+    padding: 0px 0px 20px 0px;
+    margin: 10px;
+}
+
+#footer a{
+
+    color: white;
+}
+
+#footer a:link
+#footer a:visited{
+
+    color: white;
+}
+
+#footer a:hover{
+
+    color: white;
+}
+
+#footer a:active{
+
+    color: white;
+}
+
+.copy{
+
+    
+    font-size: 30px;
+    
+}
+
+/*end footer*/
+
+
+
+
+
+
+
+
+
+
+
+/*social media*/
+
+
+.spanfooter{
+
+   color: #e0ff2b;
+   font-size: 16px;
+   font-family: cursive;
+     
+}
+
+.spanfacebook{
+
+   color: green;
+   font-size: 22px;
+    
+}
+
+.spanfacebook a i{
+
+   color: lightblue;
+   font-size: 22px;
+    
+}
+
+.spaninstagram{
+
+   color: blue;
+   font-size: 22px;
+    
+}
+
+.spaninstagram a i{
+
+   color: #db5451;
+   font-size: 22px;
+    
+}
+
+.spantwitter{
+
+   color: blue;
+   font-size: 22px;
+    
+}
+
+.spantwitter a i{
+
+   color: #32aadb;
+   font-size: 22px;
+    
+}
+
+.spanvk{
+
+   color: blue;
+   font-size: 22px;
+    
+}
+
+.spanvk a i{
+
+   color: #2787f5;
+   font-size: 22px;
+    
+}
+
+.spantelegram{
+
+   color: aqua;
+   font-size: 22px;
+    
+}
+
+.spantelegram a i{
+
+   color:#3e94cc;
+   font-size: 22px;
+    
+}
+
+.spanpinterest{
+
+   color: aqua;
+   font-size: 22px;
+    
+}
+
+.spanpinterest a i{
+
+   color:#e60023;
+   font-size: 22px;
+    
+}
+
+.spanlinkedin{
+
+   color: aqua;
+   font-size: 22px;
+    
+}
+
+.spanlinkedin a i{
+
+   color:#0a66c2;
+   font-size: 22px;
+    
+}
+
+.spanquora{
+
+   color: aqua;
+   font-size: 22px;
+    
+}
+
+.spanquora a i{
+
+   color:#b92b27;
+   font-size: 22px;
+    
+}
+
+.spanquora{
+
+   color: aqua;
+   font-size: 22px;
+    
+}
+
+.spanquora a i{
+
+   color:#b92b27;
+   font-size: 22px;
+    
+}
+
+.spanyoutube{
+
+   color: aqua;
+   font-size: 22px;
+    
+}
+
+.spanyoutube a i{
+
+   color:#ff0101;
+   font-size: 22px;
+    
+}
+
+.spandiscord{
+
+   color: aqua;
+   font-size: 22px;
+    
+}
+
+.spandiscord a i{
+
+   color:#768edb;
+   font-size: 22px;
+    
+}
+
+.spanblogger{
+
+   color: aqua;
+   font-size: 22px;
+    
+}
+
+.spanblogger a i{
+
+   color:#f57c00;
+   font-size: 22px;
+    
+}
+
+
+/*end social media*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*new social media*/
+
+
+.spansftyou{
+
+   color: aqua;
+   font-size: 22px;
+    
+}
+
+.spansftyou a i{
+
+   color:#712ea1;
+   font-size: 22px;
+    
+}
+
+.spanwishoo{
+
+   color: aqua;
+   font-size: 22px;
+    
+}
+
+.spanwishoo a i{
+
+   color:#f75249;
+   font-size: 22px;
+    
+}
+
+.spanblebleto{
+
+   color: aqua;
+   font-size: 22px;
+    
+}
+
+.spanblebleto a i{
+
+   color:#3f78c2;
+   font-size: 22px;
+    
+}
+
+.spanuhive{
+
+   color: aqua;
+   font-size: 22px;
+    
+}
+
+.spanuhive a i{
+
+   color:#2979ff;
+   font-size: 22px;
+    
+}
+
+.spanziktalk{
+
+   color: aqua;
+   font-size: 22px;
+    
+}
+
+.spanziktalk a i{
+
+   color:#00b6c7;
+   font-size: 22px;
+    
+}
+
+.spancrypto{
+
+   color: aqua;
+   font-size: 22px;
+    
+}
+
+.spancrypto a i{
+
+   color:#2295d4;
+   font-size: 22px;
+     
+}
+
+
+/*end new social media*/
+
+
+
+
+/* copyright */
+
+#reserved{
+
+    background: #031843;
+    color: #fff;
+    font-family: Verdana;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    margin:-16px 0px -16px 0px;
+}
+
+#reserved p{
+    
+    font-family: Verdana;
+    font-size: 12px;
+    color: #fff;
+    padding: 20px 0px 25px 0px;
+
+}
+
+
+/* end copyright */
+
+
+
+
+
+
+
+
+
+
+
+/* nav-nav */
+
+
+#nav-nav{
+    
+    background: #184d66;
+    height: 50px;
+    clear: both;
+    margin: 0px;
+    padding: 0px 15px 0px 0px;
+    font-size:12px;
+
+}
+
+#nav-nav ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none; 
+} 
+
+#nav-nav ul li{
+    
+   display: inline-block;
+ 
+}  
+
+#nav-nav ul li a{
+    
+    padding: 15px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+
+}  
+
+#nav-nav ul li a:link,
+#nav-nav ul li a:visited {
+    
+    background: #184d66;
+    color: white;
+    text-decoration: none;
+}  
+
+#nav-nav ul li a:hover {
+    
+    color: white;
+    text-decoration: none;
+    background: #fb5d2e;
+}  
+
+#nav-nav ul li a:active {
+    
+    color: white;
+    text-decoration: none;
+    background: #fb5d2e;
+} 
+
+
+/* end nav-nav */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* email 2020 */
+
+/* email 1 milion */
+
+/* email world */
+
+#main1 {
+    
+   
+    height: 100%;
+    padding: 0px;
+    margin: 20px 0px;
+    float: left;
+}
+
+#main1 h5{
+    
+   padding: 20px 0px 40px 0px;
+   text-align:center;
+}
+
+#main1{
+    
+    font-family: cursive,Helvetica,Verdana,sans-serif;
+    height: 100%;
+ 
+}
+
+#main1 h2{
+    
+    font-family: cursive,sans-serif;
+    color: #d2fa09;
+    margin: 20px 0 30px;
+    padding: 0px;
+    text-align: center;
+
+}
+
+
+.link20{
+    
+    width: 240px;
+    height: 60px;
+    font-size: 22px; 
+    background: red;
+    list-style: none;
+    text-align: center;
+    display: block;
+    padding:0px;
+    margin: 0px 0px 0px 24px;
+
+}
+
+.american{
+
+   margin:0px 0px 0px 40px;
+ 
+}
+
+.america{
+    
+  display:inline-block;
+  float:left;
+ 
+}
+
+.banner1200x100{
+    
+    width:98%;
+    height:100px;
+    background:white;
+    display:block;
+    margin:0px 0px 45px 10px;
+}
+
+.link2020{
+    
+    width: 240px;
+    height: 60px;
+    font-size: 24px; 
+    background: red;
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    padding:0px;
+    margin: 20px 0px 0px 0px;
+    display:inline-block;
+
+}
+
+#main1 ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none; 
+} 
+
+#main1 ul li{
+    
+   display: block;
+}  
+
+#main1 ul li a{
+   
+    padding: 10px 45.4px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+}  
+
+#main1 ul li a:link,
+#main1 ul li a:visited {
+    
+    background: #184d66;
+    color: white;
+    text-decoration: none;
+}  
+
+#main1 ul li a:hover {
+    
+    color: white;
+    text-decoration: none;
+    background: orange;
+}  
+
+#main1 ul li a:active {
+    
+    color: white;
+    text-decoration: none;
+    background: orange;
+} 
+
+
+/* end email 2020 */
+
+/* end email 1 milion */
+
+/* end email world */
+
+
+
+
+
+
+
+/* email 2020 */
+
+/* email 1 milion a-z*/
+
+/* email world */
+
+#maina{
+    
+    width: 790px;
+    height: 100%;
+    padding: 0px 20px 30px 20px;
+    margin: 20px 0px 60px 170px;
+    background: #73c3d1;
+    float: left;
+    
+}
+.gogle2 {
+    
+    width: 728px;
+    height: 90px;
+    background: white;
+    color: black;
+    margin: 45px 10px 40px 51px;
+    float: left;
+}
+
+#maina h2{
+    
+    font-family: cursive,sans-serif;
+    color: #d2fa09;
+    margin: 20px 0 30px;
+    padding: 0px;
+    text-align: center;
+    font-size: 26px;
+
+}
+
+.response{
+
+    color: black;
+    font-size: 20px;
+    font-family: cursive,sans-serif;
+    margin: 0px;
+    padding: 15px 0px 10px 10px;
+} 
+
+.gogle2 {
+    
+    width: 728px;
+    height: 90px;
+    background: white;
+    color: black;
+    margin: 35px 20px 40px 30px;
+    float: left;
+}
+
+#article1 {
+    
+    width: 98%;
+    height: 300px;
+    background: white;
+    color: black;
+    margin: 0px 0px 30px 10px;
+    float: left; 
+} 
+
+/* end email 2020 */
+
+/* end email 1 milion a-z*/
+
+/* end email world */
+
+
+
+
+
+
+
+
+
+.e {
+    
+    font-size: 24px;
+    text-align: center;
+}
+
+#main, h5{
+    
+    font-size: 30px;
+    color: purple;
+    text-align: center;
+}
+
+#main, p{
+    
+    color: black;
+}
+
+
+
+
+
+
+
+
+/* contextual */
+
+
+#card {
+    
+    display: flex;
+    justify-content:space-between;
+    margin: 0px;
+    width: auto;
+
+}
+
+.card {
+    
+    flex-basis:400;
+    margin: 30px 15px 30px 15px;
+    padding: 0px;
+    text-align: center;
+
+}
+
+
+.card p{
+    
+    background: white;
+    border: 2px solid #003352;
+    color:black;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 16px 5px;
+    width: 110px;
+}
+
+
+/* end contextual */
+
+
+/* airdrop */
+
+
+#airdrops{
+    
+    font-family: cursive;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+#airdrops h2{
+    
+    font-family: cursive,sans-serif;
+    color: #d2fa09;
+    padding: 0px;
+    text-align: center;
+    margin:0px 0px 0px 0px;
+    font-size: 24px;
+
+}
+
+#airdrops p{
+     
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    margin: 10px 30px 20px 10px;
+}
+
+#mainairdrop{
+    
+    width: 750px;
+    height: 100%;
+    padding: 0px 15px;
+    position: relative;
+    left:330px;
+    float: left;
+}
+
+
+.main-main1{
+    
+   width: 740px;
+   height: 100%;
+   background: white;
+   padding: 10px 20px 80px 20px;
+   margin: 0px 0px 40px 210px;
+   display: block;
+} 
+
+
+.main-main1 h3{
+    
+   color: purple;
+   font-family: cursive;
+   text-align: center;
+   font-size: 24px;
+   
+} 
+
+.main-main1, p{
+    
+   font-size:14px;
+   
+} 
+
+.claim1{
+
+    height: 50px;
+    position: relative;
+    left: 298px;
+    bottom: 0px;
+} 
+
+.main-main1 ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}   
+
+.main-main1 ul li{
+    
+   display: inline-block;
+   position: absolute;
+}  
+
+.main-main1 ul li a{
+   
+    padding: 10px 20px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    display: block;
+}  
+
+.main-main1 ul li a:link,
+.main-main1 ul li a:visited {
+    
+    color: white;
+    text-decoration: none;
+    background: #184d66;
+}  
+
+.main-main1 ul li a:hover {
+    
+    color: white;
+    text-decoration: none;
+    background: #fb5d2e;
+}  
+
+.main-main1 ul li a:active {
+    
+    color: black;
+    text-decoration: none;
+    background: #fb5d2e;
+} 
+
+.banner1200{
+    
+    width:96%;
+    height:100px;
+    background:white;
+    display:block;
+    margin:0px 0px 45px 25px;
+}
+
+
+/* end airdrop */
+
+
+
+
+
+
+
+
+
+
+
+
+/* crypto games */
+
+
+#games{
+    
+    font-family: cursive;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+#games h2{
+    
+    font-family: cursive,sans-serif;
+    color: #d2fa09;
+    margin: 20px 0px 10px 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 22px; 
+
+}
+
+#games p{
+     
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    margin: 0px 20px 20px 20px;
+ 
+}
+
+#main product {
+    
+    background: white;
+        
+}
+
+#products {
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 40px -70px;
+    
+}
+
+.products, img{
+    
+    width: 150px;
+}
+    
+.product {
+    
+    flex-basis:100%;
+    margin: -2px 10px 60px 70px;
+    padding: 0px;
+}
+
+.product p{
+    
+    background: #042f66;
+    border: 4px solid #645eaf;
+    color:white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 5px;
+    width: 135px;
+    margin:auto;
+
+}
+
+.product p:hover{
+    
+    background: orange;
+}
+
+.cryptoads {
+    
+    width: 930px;
+    height: 170px;
+    background: white;
+    color: black;
+    margin: -20px 0px 82px 0px;
+    display: block;
+    left: 0px;
+}
+
+.cryptoads:hover{
+    
+    background: white;
+    
+}
+
+
+/* end crypto games */
+
+
+
+
+
+
+
+
+
+
+
+/* crypto social media */
+
+
+#social{
+    
+    font-family: cursive;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+#social h2{
+    
+    font-family: cursive,sans-serif;
+    color: #d2fa09;
+    margin: 20px 0px 10px 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 22px; 
+
+}
+
+#social p{
+     
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    margin: 0px 20px 20px 20px;
+ 
+}
+
+#main productt {
+    
+    background: white;
+        
+}
+
+#productss {
+    
+    display: block;
+    margin: 0px 0px 40px -70px;
+   
+}
+
+.productss, img{
+    
+    width: 150px;
+}
+    
+.productt {
+    
+    flex-basis:100%;
+    margin: -2px 10px 60px 70px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.productt p{
+    
+    background: #042f66;
+    border: 4px solid #645eaf;
+    color:white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 5px;
+    width: 135px;
+    margin:auto;
+
+}
+
+.productt p:hover{
+    
+    background: orange;
+}
+
+.socialads {
+    
+    width: 930px;
+    height: 170px;
+    background: white;
+    color: black;
+    margin: 0px 0px 82px 0px;
+    position: relative;
+    left:0px;
+    
+    
+}
+
+.socialads:hover{
+    
+    background: white;
+    
+}
+
+
+/* end crypto social media */
+
+  
+
+
+
+
+
+
+
+/* BaNNer */ 
+
+
+#gift {
+    
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.baner81x31 {
+    
+    width: 81px;
+    height: 31px;
+    background: white;
+    margin: 15px 5px 25px 31px;
+    float: left;
+}
+
+.baner100x100 {
+    
+    width: 100px;
+    height: 100px;
+    background: white;
+    margin: 15px 5px 25px 31px;
+    float: left;
+}
+
+.baner125x125 {
+    
+    width: 125px;
+    height: 125px;
+    background: white;
+    margin: 20px 5px 25px 50px;
+    float: left;
+}
+
+.baner150x150{
+    
+    width: 150px;
+    height: 150px;
+    background: white;
+    margin: 20px 5px 25px 27px;
+    float: left;
+}
+
+.baner180x150{
+    
+    width: 150px;
+    height: 150px;
+    background: white;
+    margin: 20px 5px 25px 27px;
+    float: left;
+}
+
+.baner234x60 {
+    
+    width: 234px;
+    height: 60px;
+    background: white;
+    margin: 20px 10px 25px 30px;
+    float: left;
+}
+
+.baner240x60 {
+    
+    width: 240px;
+    height: 60px;
+    background: white;
+    margin: 20px 5px 25px 28px;
+    float: left;
+}
+
+.baner200x200 {
+    
+    width: 200px;
+    height: 200px;
+    background: white;
+    margin: 20px 20px 25px 52px;
+    float: left;
+}
+
+.baner250x250 {
+    
+    width: 250px;
+    height: 250px;
+    background: white;
+    margin: 20px 15px 25px 60px;
+    float: left;
+}
+
+.baner200x300 {
+    
+    width: 200px;
+    height: 300px;
+    background: white;
+    margin: 20px 0px 25px 32px;
+    float: left;
+}
+
+.baner250x300 {
+    
+    width: 250px;
+    height: 300px;
+    background: white;
+    margin: 20px 0px 25px 23px;
+    float: left;
+}
+
+.baner240x400{
+    
+    width: 240px;
+    height: 400px;
+    background: white;
+    margin: 20px 10px 25px 25px;
+    float: left;
+}
+
+.baner300x250 {
+    
+    width: 300px;
+    height: 250px;
+    background: white;
+    margin: 20px 5px 25px 23.5px;
+    float: left;
+}
+
+.baner350x50 {
+    
+    width: 350px;
+    height: 50px;
+    background: white;
+    margin: 20px 5px 25px 49px;
+    float: left;
+}
+
+.baner336x280 {
+    
+    width: 336px;
+    height: 280px;
+    background: white;
+    margin: 20px 5px 25px 62px;
+    float: left;
+}
+
+.baner336x280 {
+    
+    width: 336px;
+    height: 280px;
+    background: white;
+    margin: 20px 5px 25px 62px;
+    float: left;
+}
+
+.baner468x60 {
+    
+    width: 468px;
+    height: 60px;
+    background: white;
+    margin: 20px 30px 25px 50px;
+    float: left;
+}
+
+.baner468x80 {
+    
+    width: 468px;
+    height: 80px;
+    background: white;
+    margin: 20px 30px 25px 50px;
+    float: left;
+}
+
+.baner728x90 {
+    
+    width: 728px;
+    height: 90px;
+    background: white;
+    margin: 20px 10px 25px 67px;
+    float: left;
+
+}
+
+.baner728x300 {
+    
+    width: 728px;
+    height: 300px;
+    background: white;
+    margin: 20px 10px 25px 67px;
+    float: left;
+
+}
+
+.baner80x468 {
+    
+    width: 80px;
+    height: 468px;
+    background: white;
+    margin: 20px 17px 25px 21.2px;
+    float: left;
+}
+
+.baner120x60 {
+    
+    width: 120px;
+    height: 60px;
+    background: white;
+    margin: 20px 10px 25px 34px;
+    float: left;
+}
+
+.baner120x90 {
+
+    width: 120px;
+    height: 90px;
+    background: white;
+    margin: 20px 10px 25px 34px;
+    float: left;
+}
+
+.baner120x240 {
+
+    width: 120px;
+    height: 240px;
+    background: white;
+    margin: 20px 10px 25px 34px;
+    float: left;
+}
+
+.baner120x600 {
+    
+    width: 120px;
+    height: 600px;
+    background: white;
+    margin: 20px 17px 25px 28px;
+    float: left;
+}
+
+.baner160x600 {
+    
+    width: 160px;
+    height: 600px;
+    background: white;
+    margin: 20px 10px 25px 61px;
+    float: left;
+}
+
+.baner300x600 {
+    
+    width: 300px;
+    height: 600px;
+    background: white;
+    margin: 20px 10px 25px 87px;
+    float: left;
+}
+
+.baner930x170 {
+    
+    width: 930px;
+    height: 170px;
+    background: white;
+    margin: 20px 10px 25px 45px;
+    float: left;
+}
+
+.baner1000x90 {
+    
+    width: 96%;
+    height: 90px;
+    background: white;
+    margin: 20px 20px 25px 20px;
+    float: left;
+}
+
+.baner1170x100 {
+    
+    width: 94%;
+    height: 100px;
+    background: white;
+    margin: 20px 20px 25px 30px;
+    float: left;
+}
+
+.baner1200x100 {
+    
+    width: 100%;
+    height: 100px;
+    background: white;
+    margin: 0px 20px 25px 0px;
+    float: left;
+}
+
+/* end BaNNer */ 
+
+
+
+
+
+
+
+/* contact */
+
+
+
+#main-maincontact1{
+ 
+    margin: 0px 0px 50px 0px;
+    
+} 
+
+#main-maincontact1 h2{
+    
+    text-align:center;
+    font-size: 26px;
+    margin: 0px 0px 0px 0px;
+    color: yellow;
+    
+} 
+
+#main-maincontact1 p{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 14px;
+    color: white;
+    padding:0 0 0 0px;
+    
+}
+
+/* end contact */
+
+
+
+
+
+
+
+
+
+/* use policy */
+
+#usepolicy{
+ 
+    margin: 0px 0px 50px 0px;
+    
+} 
+
+#usepolicy h2{
+    
+    text-align:center;
+    font-size: 22px;
+    margin: 0px 0px 0px 0px;
+    color: yellow;
+    
+} 
+
+#usepolicy h6{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 20px;
+    padding:0 0 0 20px;
+    
+} 
+
+#usepolicy p{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 18px;
+    color: white;
+    padding:0 0 0 20px;
+    
+} 
+
+
+
+/* end use policy */
+
+
+
+
+/* questionsandanswers */
+
+
+#questionsandanswers{
+ 
+    margin: 0px 0px 50px 0px;
+    
+} 
+
+#questionsandanswers h2{
+    
+    text-align:center;
+    font-size: 22px;
+    margin: 0px 0px 0px 0px;
+    color: yellow;
+    
+} 
+
+#questionsandanswers h6{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 20px;
+    padding:0 0 0 20px;
+    color:#f8f;
+    
+} 
+
+#questionsandanswers p{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 18px;
+    color: white;
+    padding:0 0 0 20px;
+    
+} 
+
+
+
+/* end questionsandanswers */
+
+
+
+
+
+
+/* rules */
+
+
+
+#rules{
+ 
+    margin: 0px 0px 50px 0px;
+    
+} 
+
+#rules h2{
+    
+    text-align:center;
+    font-size: 22px;
+    margin: 0px 0px 0px 0px;
+    color: yellow;
+    
+} 
+
+#rules h6{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 20px;
+    padding:0 0 0 20px;
+    color:gold;
+    
+} 
+
+#rules p{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 18px;
+    color: white;
+    padding:0 0 0 20px;
+    
+}
+
+
+
+/* end rules */
+
+
+
+
+
+a:link
+a:visited{
+   
+    color: black;
+} 
+
+
+a:hover
+a:active{
+   
+    color: aqua;
+} 
+
+    
+    
+    
+    
+}
+    
+  
+
+
+
+
+
+
+
+/* media 768 - - 1023 */
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){ 
+    
+    
+    
+    
+    
+    
+   
+    
+  body{ 
+    margin: 0px;
+    padding: 0px;
+    font-family: The roman, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-image: url(Images/pozadina%202.png);
+    background:white;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+    
+h1, h2, h3, h4, h5, h6 {
+    font-family: The roman, Arial, Helvetica, sans-serif;
+}
+
+h1 {font-size: 36px}
+
+h2 {font-size: 30px}
+
+h3 {font-size: 26px}
+
+h4 {font-size: 24px}
+
+h5 {font-size: 20px}
+
+h6 {font-size: 18px}
+
+p {
+    font-family: The new roman, Arial, Helvetica, sans-serif; 
+    font-size: 14px;
+}
+
+#wrapper{
+    
+    background: #1f425d;
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+}
+     
+#header{
+    width: 100%;
+    background: #c7ebf3;
+    height: 100%; 
+    margin: 0px;
+    animation: header-change infinite 0s ease;
+}
+
+@keyframes header-change {
+    
+    0%{ background: #303030;}
+    
+    0%{ background: #019ac4;}
+    
+    0%{ background: #92409d;}
+    
+    0%{ background: #234f9a;}
+    
+    0%{ background: #b61a3f;}
+}
+
+#footer{
+    
+    color: black;
+    text-align: center;
+    clear:both;
+} 
+
+
+
+.h1, h1{
+    
+    color: #ff4e00;
+    padding: 15px 0px 15px 10px;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Kaushan Script', cursive, arial, helvetica, sans-serif;
+    font-size:16px;
+  
+}
+
+h4{
+    
+    color: #ff4e00;
+    font-family: 'Kaushan Script', cursive, arial, helvetica, sans-serif;
+    font-size:16px;
+    text-align-last: center;
+}
+
+.span{
+    
+    color: #31912b;
+    margin: 0px 0px 20px 0px;
+}
+
+.span1{
+    
+    color: #e22371;
+    margin: 0px 0px 20px 0px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-banner{
+    
+    width: 468px;
+    height:60px;
+    background: white;
+    position: absolute;
+    left: auto;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    margin: 12px 20px 0px 0px;
+    font-size: 12px;
+    
+}
+
+#nav{
+    
+    margin: 0px 0px 0px 0px;
+    background: #184d66;
+    height: 50px;
+    padding: 0px 0px 0px 0px;
+    
+}
+  
+#nav ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}   
+
+#nav ul li{
+    
+   display: inline-block;
+   position: relative;
+}  
+
+#nav ul li a{
+   
+    padding: 15px 3px 15px 3px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    left: 3px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    display: block;
+    font-size:10px;
+}  
+
+#nav ul li a:link,
+#nav ul li a:visited {
+    
+    
+    color: white;
+    text-decoration: none;
+    background: #184d66;
+}  
+
+#nav ul li a:hover {
+    
+    color: white;
+    text-decoration: none;
+    background: #fb5d2e;
+}  
+
+#nav ul li a:active {
+    
+    color: black;
+    text-decoration: none;
+    background: #fb5d2e;
+} 
+
+#nav ul li ul {
+    
+    position: absolute;
+    top: 100%;
+    width: 140px;
+    display: none; 
+    padding: 0px;
+    
+}
+
+#nav ul li:hover > ul {
+    
+    display: block;  
+}
+    
+#nav ul li ul li{
+    
+   display: block;
+}
+
+#nav ul li ul li:hover ul{
+    
+ display: block;
+ 
+    
+}
+
+#nav ul li ul li ul{
+    
+    top: 0px;
+    left: 100%;
+}
+
+#nav ul li ul li ul li{
+   
+    top: 0px;
+    left:0px;
+}
+    
+.a i{
+   
+    font-size:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainmain{
+
+   color: white;
+}
+
+#main{
+   
+    background: #1f425d;
+    height: 100%;
+    width: 100%;
+    padding: 2px 0px;
+}
+
+#main, h3{
+    
+   color: #ff4e00;
+   font-family: 'Kaushan Script', cursive, arial, helvetica, sans-serif;
+    
+}
+
+.mainmain{
+   
+    font-family: ;
+    text-align: start;
+    margin: 0px 20px;
+    font-size: 16px;
+
+}
+
+a i{
+   
+    font-size: 17px;
+    color: #fcaa31;
+}
+
+
+#main, span{
+   
+    color: #31912b;
+}
+
+#main, span1{
+   
+    color: #e22371;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* home index*/
+
+
+.claimhome{
+
+    height: 40px;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+} 
+
+#main-mainhome ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}   
+
+#main-mainhome ul li{
+    
+   display: inline-block;
+   position: relative;
+}  
+
+#main-mainhome ul li a{
+   
+    padding: 6px 14px;
+    height: 14px;
+    line-height: 14px;
+    position: relative;
+    left: 0px;
+    right: 50px;
+    bottom: 0px;
+    top: 0px;
+    display: block;
+    border: 2px solid #d8e2dd;
+}  
+
+#main-mainhome ul li a:link,
+#main-mainhome ul li a:visited {
+    
+    color: white;
+    text-decoration: none;
+    background: #184d66;
+}  
+
+#main-mainhome ul li a:hover {
+    
+    color: white;
+    text-decoration: none;
+    background: #fb5d2e;
+}  
+
+#main-mainhome ul li a:active {
+    
+    color: black;
+    text-decoration: none;
+    background: #fb5d2e;
+} 
+
+#main-mainhome {
+   
+    
+    height: 100%;
+    padding: 20px 52px;
+    margin:0px;
+    background:#1f425d;
+    display: block;
+    text-align: center;
+    border-bottom: 4px solid #d8e2dd;
+    border-top: 4px solid #d8e2dd;
+
+}
+
+
+#main-mainhome h2{
+   
+    color: #e1f45a;
+    font-family: Times new Roman;
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+  
+   
+}
+
+#main-mainhome p{
+   
+    color: white;
+    font-family: Helvetica;
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    
+}
+
+.homes{
+
+   
+   color:#f9d406;
+  font-size:18px;
+   
+}
+
+
+/* end home index */
+
+
+
+
+
+/*script*/
+
+
+        .slideshow-container {
+        width: 100%;
+        margin:0px 0px -46px 0px;
+        padding: 76px 0px 0px 0px ;
+        border-color: black;
+        background: #cce7e8;
+            
+        }
+
+        .slider_img {
+        width:100%;
+        height: 350px;
+        margin: 0 auto;
+       
+        }
+    
+        .slider_img img{
+        width: 100%;
+        height 30px;
+        display: block;
+        margin: 0 auto;
+            
+        }
+    
+        .textdesc {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        padding: 23px 0px;
+        text-align: right;
+        background: #BBB;
+        font-size: 16px;
+             
+        }
+    
+/* Next & previous buttons */
+    
+        .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 430%;
+        width: auto;
+        padding:  16px;
+        margin-top: 0px;
+        color: plum;
+        font-weight: bold;
+        font-size: 18px;
+        user-select: none;
+        background: plum;
+            
+        }
+
+        .prev {
+            
+        position: absolute;
+        right: 96%;
+            
+        }
+
+        .prev, 
+        :link {
+        color: blue;
+        }
+    
+        .prev, 
+        :visited {
+        color: blue;
+        }
+
+        .prev:hover {
+        background-color: purple; 
+        }
+    
+        .prev:active {
+        background-color: purple;  
+        }
+        
+/* Position the "next button" to the right */
+    
+        .next {
+        right: 0;
+        border-radius: 4px 0 0 4px;   
+        }
+    
+        .next, 
+        :link {
+        color: blue;
+        }
+    
+        .next, 
+        :visited {
+        color: blue;
+        }
+
+        .next:hover {
+        background-color: purple; 
+        }
+    
+        .next:active {
+        background-color: purple;  
+        }
+
+/* Caption text */ 
+    
+        .text {
+        color: black;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: relative;
+        bottom: 8px;
+        width: 100%;
+     
+            
+        }
+
+/* The dots/bullets/indicators */
+    
+        .dot {
+        cursor: pointer;
+        height: 20px;
+        width: 20px;
+        margin: 20px 1px 20px 1px;
+        background-color: #bbb;
+        border-radius: 70%;
+        display: inline-block;
+        position: relative;
+        bottom: 0px; 
+            
+        }
+
+        .active, .dot:hover {
+        background-color: green;
+            
+        }
+
+        .dot:hover {
+        background-color: red;
+            
+            
+        }
+
+
+    .mySlides fade{
+        
+    width: 200px;
+    height: 50px;
+}
+    
+    .link{
+
+    height: 20px;
+    position: relative;
+    right: 315px;
+
+} 
+
+
+
+
+
+
+/* script */ 
+
+
+.crypto{
+
+    text-align: center;
+    color: #e0ff2b;
+    margin: 10px 0px 51px 0px;
+    font-family: cursive;
+}
+
+
+/*back to top button */
+
+#button {
+  display: inline-block;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  transition: background-color .3s; 
+  opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 40px;
+  color: #1f425d;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #22aee6;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+/* end back to top button */
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+ 
+
+#footer{
+    
+    background:#002166;
+    height: 100%;
+    clear: both;
+    color: white;
+    font-size: 16px;
+    padding: 25px 40px 0px 40px;
+    margin: 20px 150px 0px 0xp;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#footer h3{
+    
+    color: #ff4e00;
+    padding: 7px 0px 0px 20px;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Kaushan Script', cursive, arial, helvetica, sans-serif;
+    font-size:16px;
+}
+
+
+#footer p{
+
+    font-family: Verdana;
+    font-size: 10px;
+    color: #fff;
+    padding: 0px 0px 20px 0px;
+    margin: 10px;
+}
+
+#footer a{
+
+    color: white;
+}
+
+#footer a:link
+#footer a:visited{
+
+    color: white;
+}
+
+#footer a:hover{
+
+    color: white;
+}
+
+#footer a:active{
+
+    color: white;
+}
+
+.copy{
+
+    
+    font-size: 24px;
+    
+}
+
+/*end footer*/
+
+
+
+
+
+
+
+
+
+
+
+/*social media*/
+
+
+.spanfooter{
+
+   color: #e0ff2b;
+   font-size: 12px;
+   font-family: cursive;
+     
+}
+
+.spanfacebook{
+
+   color: green;
+   font-size: 18px;
+    
+}
+
+.spanfacebook a i{
+
+   color: lightblue;
+   font-size: 18px;
+    
+}
+
+.spaninstagram{
+
+   color: blue;
+   font-size: 18px;
+    
+}
+
+.spaninstagram a i{
+
+   color: #db5451;
+   font-size: 18px;
+    
+}
+
+.spantwitter{
+
+   color: blue;
+   font-size: 18px;
+    
+}
+
+.spantwitter a i{
+
+   color: #32aadb;
+   font-size: 18px;
+    
+}
+
+.spanvk{
+
+   color: blue;
+   font-size: 18px;
+    
+}
+
+.spanvk a i{
+
+   color: #2787f5;
+   font-size: 18px;
+    
+}
+
+.spantelegram{
+
+   color: aqua;
+   font-size: 18px;
+    
+}
+
+.spantelegram a i{
+
+   color:#3e94cc;
+   font-size: 18px;
+    
+}
+
+.spanpinterest{
+
+   color: aqua;
+   font-size: 18px;
+    
+}
+
+.spanpinterest a i{
+
+   color:#e60023;
+   font-size: 18px;
+    
+}
+
+.spanlinkedin{
+
+   color: aqua;
+   font-size: 18px;
+    
+}
+
+.spanlinkedin a i{
+
+   color:#0a66c2;
+   font-size: 18px;
+    
+}
+
+.spanquora{
+
+   color: aqua;
+   font-size: 18px;
+    
+}
+
+.spanquora a i{
+
+   color:#b92b27;
+   font-size: 18px;
+    
+}
+
+.spanquora{
+
+   color: aqua;
+   font-size: 18px;
+    
+}
+
+.spanquora a i{
+
+   color:#b92b27;
+   font-size: 18px;
+    
+}
+
+.spanyoutube{
+
+   color: aqua;
+   font-size: 18px;
+    
+}
+
+.spanyoutube a i{
+
+   color:#ff0101;
+   font-size: 18px;
+    
+}
+
+.spandiscord{
+
+   color: aqua;
+   font-size: 18px;
+    
+}
+
+.spandiscord a i{
+
+   color:#768edb;
+   font-size: 18px;
+    
+}
+
+.spanblogger{
+
+   color: aqua;
+   font-size: 18px;
+    
+}
+
+.spanblogger a i{
+
+   color:#f57c00;
+   font-size: 18px;
+    
+}
+
+
+/*end social media*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*new social media*/
+
+
+.spansftyou{
+
+   color: aqua;
+   font-size: 18px;
+    
+}
+
+.spansftyou a i{
+
+   color:#712ea1;
+   font-size: 18px;
+    
+}
+
+.spanwishoo{
+
+   color: aqua;
+   font-size: 18px;
+    
+}
+
+.spanwishoo a i{
+
+   color:#f75249;
+   font-size: 18px;
+    
+}
+
+.spanblebleto{
+
+   color: aqua;
+   font-size: 18px;
+    
+}
+
+.spanblebleto a i{
+
+   color:#3f78c2;
+   font-size: 18px;
+    
+}
+
+.spanuhive{
+
+   color: aqua;
+   font-size: 18px;
+    
+}
+
+.spanuhive a i{
+
+   color:#2979ff;
+   font-size: 18px;
+    
+}
+
+.spanziktalk{
+
+   color: aqua;
+   font-size: 18px;
+    
+}
+
+.spanziktalk a i{
+
+   color:#00b6c7;
+   font-size: 18px;
+    
+}
+
+.spancrypto{
+
+   color: aqua;
+   font-size: 18px;
+    
+}
+
+.spancrypto a i{
+
+   color:#2295d4;
+   font-size: 18px;
+     
+}
+
+
+/*end new social media*/
+
+
+
+
+/* copyright */
+
+#reserved{
+
+    background: #031843;
+    color: #fff;
+    font-family: Verdana;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    margin:-16px 0px -16px 0px;
+}
+
+#reserved p{
+    
+    font-family: Verdana;
+    font-size: 10px;
+    color: #fff;
+    padding: 20px 0px 25px 0px;
+
+}
+
+
+/* end copyright */
+
+
+
+
+
+
+
+
+
+
+
+/* nav-nav */
+
+
+#nav-nav{
+    
+    background: #184d66;
+    height: 50px;
+    clear: both;
+    margin: 0px;
+    padding: 0px 15px 0px 0px;
+
+}
+
+#nav-nav ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none; 
+} 
+
+#nav-nav ul li{
+    
+   display: inline-block;
+ 
+}  
+
+#nav-nav ul li a{
+    
+    padding: 15px 2px 15px 2px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    font-size:10px;
+
+}  
+
+#nav-nav ul li a:link,
+#nav-nav ul li a:visited {
+    
+    background: #184d66;
+    color: white;
+    text-decoration: none;
+}  
+
+#nav-nav ul li a:hover {
+    
+    color: white;
+    text-decoration: none;
+    background: #fb5d2e;
+}  
+
+#nav-nav ul li a:active {
+    
+    color: white;
+    text-decoration: none;
+    background: #fb5d2e;
+} 
+
+
+/* end nav-nav */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* email 2020 */
+
+/* email 1 milion */
+
+/* email world */
+
+#main1 {
+    
+   
+    height: 100%;
+    padding: 0px;
+    margin: 20px 0px;
+    float: left;
+}
+
+#main1 h5{
+    
+   padding: 20px 0px 40px 0px;
+   text-align:center;
+}
+
+#main1{
+    
+    font-family: cursive,Helvetica,Verdana,sans-serif;
+    height: 100%;
+ 
+}
+
+#main1 h2{
+    
+    font-family: cursive,sans-serif;
+    color: #d2fa09;
+    margin: 20px 0 30px;
+    padding: 0px;
+    text-align: center;
+    font-size: 26px;
+
+}
+
+.link20{
+    
+    width: 230px;
+    height: 60px;
+    font-size: 18px; 
+    background: red;
+    list-style: none;
+    text-align: center;
+    display: block;
+    padding:0px;
+    margin: 0px 0px 0px 100px;
+
+}
+
+.american{
+
+   margin:0px 0px 0px 40px;
+ 
+}
+
+.america{
+    
+  display:inline-block;
+  float:left;
+ 
+}
+
+.banner1200x100{
+    
+    width:98%;
+    height:100px;
+    background:white;
+    display:block;
+    margin:0px 10px 45px 8px;
+}
+
+.link2020{
+    
+    width: 230px;
+    height: 60px;
+    font-size: 18px; 
+    background: red;
+    list-style: none;
+    text-align: center;
+    padding:0px;
+    margin: 20px 0px 0px 0px;
+    display:inline-block;
+    text-align:center;
+
+}
+
+#main1 ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none; 
+} 
+
+#main1 ul li{
+    
+   display: block;
+}  
+
+#main1 ul li a{
+   
+    padding: 10px 45.4px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+}  
+
+#main1 ul li a:link,
+#main1 ul li a:visited {
+    
+    background: #184d66;
+    color: white;
+    text-decoration: none;
+}  
+
+#main1 ul li a:hover {
+    
+    color: white;
+    text-decoration: none;
+    background: orange;
+}  
+
+#main1 ul li a:active {
+    
+    color: white;
+    text-decoration: none;
+    background: orange;
+} 
+
+
+/* end email 2020 */
+
+/* end email 1 milion */
+
+/* end email world */
+
+
+
+
+
+
+
+/* email 2020 */
+
+/* email 1 milion a-z*/
+
+/* email world */
+
+#maina{
+    
+    width: 100%;
+    height: 100%;
+    padding: 0px 0px 30px 0px;
+    margin: 20px 0px 60px 0px;
+    background: #73c3d1;
+    float: left;
+    
+}
+
+#maina h2{
+    
+    font-family: cursive,sans-serif;
+    color: #d2fa09;
+    margin: 20px 0 30px;
+    padding: 0px;
+    text-align: center;
+    font-size: 24px;
+
+}
+
+.response{
+
+    color: black;
+    font-size: 18px;
+    font-family: cursive,sans-serif;
+    margin: 0px;
+    padding: 15px 0px 10px 10px;
+} 
+
+.gogle2 {
+    
+    
+    height: 90px;
+    background: white;
+    color: black;
+    margin: 35px 0px 40px 10px;
+    float: left;
+}
+
+#article1 {
+    
+    width: 98%;
+    height: 300px;
+    background: white;
+    color: black;
+    margin: 0px 0px 30px 8px;
+    float: left; 
+} 
+
+/* end email 2020 */
+
+/* end email 1 milion a-z*/
+
+/* end email world */
+
+
+
+
+
+
+
+
+
+.e {
+    
+    font-size: 22px;
+    text-align: center;
+}
+
+#main, h5{
+    
+    font-size: 26px;
+    color: purple;
+    text-align: center;
+}
+
+#main, p{
+    
+    color: black;
+}
+
+
+
+
+
+
+
+
+/* contextual */
+
+
+#card {
+    
+    
+    width:100%;
+    
+    
+
+}
+
+.card {
+    
+    display:inline-block;
+    flex-basis:400;
+    margin: 30px 15px 30px 10px;
+    padding: 0px;
+    text-align: center;
+
+}
+
+
+.card p{
+    
+    background: white;
+    border: 2px solid #003352;
+    color:black;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 16px 5px;
+    width: 90px;
+    font-size: 10px;
+}
+
+
+/* end contextual */
+
+
+/* airdrop */
+
+
+#airdrops{
+    
+    font-family: cursive;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+#airdrops h2{
+    
+    font-family: cursive,sans-serif;
+    color: #d2fa09;
+    padding: 0px;
+    text-align: center;
+    margin:0px 0px 0px 0px;
+    font-size: 24px;
+
+}
+
+#airdrops p{
+     
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    margin: 10px 30px 20px 10px;
+}
+
+#mainairdrop{
+    
+    width: 100%;
+    height: 100%;
+    padding: 0px 15px;
+    position: relative;
+    left:0px;
+    float: left;
+}
+
+
+.main-main1{
+    
+   width: 100%;
+   height: 100%;
+   background: white;
+   padding: 10px 0px 80px 0px;
+   margin: 0px 0px 40px 0px;
+   display: block;
+} 
+
+
+.main-main1 h3{
+    
+   color: purple;
+   font-family: cursive;
+   text-align: center;
+   font-size: 24px;
+   
+} 
+
+.main-main1, p{
+    
+   font-size:14px;
+   
+} 
+
+.claim1{
+
+    height: 50px;
+    position: relative;
+    left: 350px;
+    bottom: 0px;
+
+} 
+
+.main-main1 ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}   
+
+.main-main1 ul li{
+    
+   display: inline-block;
+   position: absolute;
+}  
+
+.main-main1 ul li a{
+   
+    padding: 10px 20px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    display: block;
+}  
+
+.main-main1 ul li a:link,
+.main-main1 ul li a:visited {
+    
+    color: white;
+    text-decoration: none;
+    background: #184d66;
+}  
+
+.main-main1 ul li a:hover {
+    
+    color: white;
+    text-decoration: none;
+    background: #fb5d2e;
+}  
+
+.main-main1 ul li a:active {
+    
+    color: black;
+    text-decoration: none;
+    background: #fb5d2e;
+} 
+
+.banner1200{
+    
+    width:100%;
+    height:100px;
+    background:white;
+    display:block;
+    margin:0px 0px 45px 0px;
+}
+
+
+/* end airdrop */
+
+
+
+
+
+
+
+
+
+
+
+/* crypto games */
+
+
+#games{
+    
+    font-family: cursive;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+#games h2{
+    
+    font-family: cursive,sans-serif;
+    color: #d2fa09;
+    margin: 20px 0px 10px 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 22px; 
+
+}
+
+#games p{
+     
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    margin: 0px 20px 20px 20px;
+ 
+}
+
+#main product {
+    
+    background: white;
+        
+}
+
+#products {
+    
+    display: block;
+    margin: 0px 0px 40px -70px;
+    text-align: center;
+}
+
+.products, img{
+    
+    width: 150px;
+}
+    
+.product {
+    
+    flex-basis:100%;
+    margin: -2px 10px 60px 70px;
+    padding: 0px;
+}
+
+.product p{
+    
+    background: #042f66;
+    border: 4px solid #645eaf;
+    color:white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 5px;
+    width: 135px;
+    margin:auto;
+
+}
+
+.product p:hover{
+    
+    background: orange;
+}
+
+.cryptoads {
+    
+    width: 100%;
+    height: 170px;
+    background: white;
+    color: black;
+    margin: -20px 0px 82px 0px;
+    display: flex;
+    justify-content:space-between;
+    position: relative;
+    left: 0px;
+}
+
+.cryptoads:hover{
+    
+    background: white;
+    
+}
+
+
+/* end crypto games */
+
+
+
+
+
+
+
+
+
+
+
+/* crypto social media */
+
+
+#social{
+    
+    font-family: cursive;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+#social h2{
+    
+    font-family: cursive,sans-serif;
+    color: #d2fa09;
+    margin: 20px 0px 10px 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 22px; 
+
+}
+
+#social p{
+     
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    margin: 0px 20px 20px 20px;
+ 
+}
+
+#main productt {
+    
+    background: white;
+        
+}
+
+#productss {
+    
+    display: block;
+    margin: 0px 0px 40px -70px;
+   
+}
+
+.productss, img{
+    
+    width: 150px;
+}
+    
+.productt {
+    
+    flex-basis:100%;
+    margin: -2px 10px 60px 70px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.productt p{
+    
+    background: #042f66;
+    border: 4px solid #645eaf;
+    color:white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 5px;
+    width: 135px;
+    margin:auto;
+
+}
+
+.productt p:hover{
+    
+    background: orange;
+}
+
+.socialads {
+    
+    width: 100%;
+    height: 170px;
+    background: white;
+    color: black;
+    margin: 0px 0px 82px 0px;
+    position: relative;
+    left:0px;
+    
+    
+}
+
+.socialads:hover{
+    
+    background: white;
+    
+}
+
+
+/* end crypto social media */
+
+  
+
+
+
+
+
+
+
+/* BaNNer */ 
+
+
+#gift {
+    
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.baner81x31 {
+    
+    width: 81px;
+    height: 31px;
+    background: white;
+    margin: 15px 5px 25px 31px;
+    float: left;
+}
+
+.baner100x100 {
+    
+    width: 100px;
+    height: 100px;
+    background: white;
+    margin: 15px 5px 25px 31px;
+    float: left;
+}
+
+.baner125x125 {
+    
+    width: 125px;
+    height: 125px;
+    background: white;
+    margin: 20px 5px 25px 50px;
+    float: left;
+}
+
+.baner150x150{
+    
+    width: 150px;
+    height: 150px;
+    background: white;
+    margin: 20px 5px 25px 27px;
+    float: left;
+}
+
+.baner180x150{
+    
+    width: 150px;
+    height: 150px;
+    background: white;
+    margin: 20px 5px 25px 27px;
+    float: left;
+}
+
+.baner234x60 {
+    
+    width: 234px;
+    height: 60px;
+    background: white;
+    margin: 20px 10px 25px 30px;
+    float: left;
+}
+
+.baner240x60 {
+    
+    width: 240px;
+    height: 60px;
+    background: white;
+    margin: 20px 5px 25px 28px;
+    float: left;
+}
+
+.baner200x200 {
+    
+    width: 200px;
+    height: 200px;
+    background: white;
+    margin: 20px 20px 25px 52px;
+    float: left;
+}
+
+.baner250x250 {
+    
+    width: 250px;
+    height: 250px;
+    background: white;
+    margin: 20px 15px 25px 60px;
+    float: left;
+}
+
+.baner200x300 {
+    
+    width: 200px;
+    height: 300px;
+    background: white;
+    margin: 20px 0px 25px 32px;
+    float: left;
+}
+
+.baner250x300 {
+    
+    width: 250px;
+    height: 300px;
+    background: white;
+    margin: 20px 0px 25px 23px;
+    float: left;
+}
+
+.baner240x400{
+    
+    width: 240px;
+    height: 400px;
+    background: white;
+    margin: 20px 10px 25px 25px;
+    float: left;
+}
+
+.baner300x250 {
+    
+    width: 300px;
+    height: 250px;
+    background: white;
+    margin: 20px 5px 25px 23.5px;
+    float: left;
+}
+
+.baner350x50 {
+    
+    width: 350px;
+    height: 50px;
+    background: white;
+    margin: 20px 5px 25px 49px;
+    float: left;
+}
+
+.baner336x280 {
+    
+    width: 336px;
+    height: 280px;
+    background: white;
+    margin: 20px 5px 25px 62px;
+    float: left;
+}
+
+.baner336x280 {
+    
+    width: 336px;
+    height: 280px;
+    background: white;
+    margin: 20px 5px 25px 62px;
+    float: left;
+}
+
+.baner468x60 {
+    
+    width: 468px;
+    height: 60px;
+    background: white;
+    margin: 20px 30px 25px 50px;
+    float: left;
+}
+
+.baner468x80 {
+    
+    width: 468px;
+    height: 80px;
+    background: white;
+    margin: 20px 30px 25px 50px;
+    float: left;
+}
+
+.baner728x90 {
+    
+    width: 728px;
+    height: 90px;
+    background: white;
+    margin: 20px 10px 25px 0px;
+    float: left;
+
+}
+
+.baner728x300 {
+    
+    width: 728px;
+    height: 300px;
+    background: white;
+    margin: 20px 10px 25px 0px;
+    float: left;
+
+}
+
+.baner80x468 {
+    
+    width: 80px;
+    height: 468px;
+    background: white;
+    margin: 20px 17px 25px 21.2px;
+    float: left;
+}
+
+.baner120x60 {
+    
+    width: 120px;
+    height: 60px;
+    background: white;
+    margin: 20px 10px 25px 34px;
+    float: left;
+}
+
+.baner120x90 {
+
+    width: 120px;
+    height: 90px;
+    background: white;
+    margin: 20px 10px 25px 34px;
+    float: left;
+}
+
+.baner120x240 {
+
+    width: 120px;
+    height: 240px;
+    background: white;
+    margin: 20px 10px 25px 34px;
+    float: left;
+}
+
+.baner120x600 {
+    
+    width: 120px;
+    height: 600px;
+    background: white;
+    margin: 20px 17px 25px 28px;
+    float: left;
+}
+
+.baner160x600 {
+    
+    width: 160px;
+    height: 600px;
+    background: white;
+    margin: 20px 10px 25px 61px;
+    float: left;
+}
+
+.baner300x600 {
+    
+    width: 300px;
+    height: 600px;
+    background: white;
+    margin: 20px 10px 25px 87px;
+    float: left;
+}
+
+.baner930x170 {
+    
+    width: 100%;
+    height: 170px;
+    background: white;
+    margin: 20px 10px 25px 0px;
+    float: left;
+}
+
+.baner1000x90 {
+    
+    width: 100%;
+    height: 90px;
+    background: white;
+    margin: 20px 20px 25px 0px;
+    float: left;
+}
+
+.baner1170x100 {
+    
+    width: 100%;
+    height: 100px;
+    background: white;
+    margin: 20px 20px 25px 0px;
+    float: left;
+}
+
+.baner1200x100 {
+    
+    width: 100%;
+    height: 100px;
+    background: white;
+    margin: 20px 20px 25px 0px;
+    float: left;
+}
+
+/* end BaNNer */ 
+
+
+
+
+
+
+
+/* contact */
+
+
+
+#main-maincontact1{
+ 
+    margin: 0px 0px 50px 0px;
+    
+} 
+
+#main-maincontact1 h2{
+    
+    text-align:center;
+    font-size: 26px;
+    margin: 0px 0px 0px 0px;
+    color: yellow;
+    
+} 
+
+#main-maincontact1 p{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 14px;
+    color: white;
+    padding:0 0 0 0px;
+    
+}
+
+
+/* end contact */
+
+
+
+
+
+
+
+
+
+/* use policy */
+
+
+#usepolicy{
+ 
+    margin: 0px 0px 50px 0px;
+    
+} 
+
+#usepolicy h2{
+    
+    text-align:center;
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+    color: yellow;
+    
+} 
+
+#usepolicy h6{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 18px;
+    padding:0 0 0 20px;
+    
+} 
+
+#usepolicy p{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 16px;
+    color: white;
+    padding:0 0 0 20px;
+    
+} 
+
+
+/* end use policy */
+
+
+
+
+/* questionsandanswers */
+
+
+#questionsandanswers{
+ 
+    margin: 0px 0px 50px 0px;
+    
+} 
+
+#questionsandanswers h2{
+    
+    text-align:center;
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+    color: yellow;
+    
+} 
+
+#questionsandanswers h6{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 18px;
+    padding:0 0 0 20px;
+    
+} 
+
+#questionsandanswers p{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 16px;
+    color: white;
+    padding:0 0 0 20px;
+    
+} 
+
+
+/* end questionsandanswers */
+
+
+
+
+
+
+/* rules */
+
+
+
+#rules{
+ 
+    margin: 0px 0px 50px 0px;
+    
+} 
+
+#rules h2{
+    
+    text-align:center;
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+    color: yellow;
+    
+} 
+
+#rules h6{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 18px;
+    padding:0 0 0 20px;
+    color:gold;
+    
+} 
+
+#rules p{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 16px;
+    color: white;
+    padding:0 0 0 20px;
+    
+}
+
+/* end rules */
+
+
+
+
+
+a:link
+a:visited{
+   
+    color: black;
+} 
+
+
+a:hover
+a:active{
+   
+    color: aqua;
+} 
+
+    
+    
+    
+    
+}
+    
+
+    
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 420px) and (max-width: 767px){ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+  body{ 
+    margin: 0px;
+    padding: 0px;
+    font-family: The roman, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-image: url(Images/pozadina%202.png);
+    background:white;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+    
+h1, h2, h3, h4, h5, h6 {
+    font-family: The roman, Arial, Helvetica, sans-serif;
+}
+
+h1 {font-size: 36px}
+
+h2 {font-size: 30px}
+
+h3 {font-size: 26px}
+
+h4 {font-size: 24px}
+
+h5 {font-size: 20px}
+
+h6 {font-size: 18px}
+
+p {
+    font-family: The new roman, Arial, Helvetica, sans-serif; 
+    font-size: 14px;
+}
+
+#wrapper{
+    
+    background: #1f425d;
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+}
+     
+#header{
+    width: 100%;
+    background: #c7ebf3;
+    height: 100%; 
+    margin: 0px;
+    animation: header-change infinite 0s ease;
+}
+
+@keyframes header-change {
+    
+    0%{ background: #303030;}
+    
+    0%{ background: #019ac4;}
+    
+    0%{ background: #92409d;}
+    
+    0%{ background: #234f9a;}
+    
+    0%{ background: #b61a3f;}
+}
+
+#footer{
+    
+    color: black;
+    text-align: center;
+    clear:both;
+} 
+
+#header h1{
+    
+    
+    width:100%;
+    
+    
+
+}
+
+
+.h1, h1{
+    
+    color: #ff4e00;
+    padding: 15px 10px 15px 5px;
+    margin: 0px 20px 0px 0px;
+    font-family: 'Kaushan Script', cursive, arial, helvetica, sans-serif;
+    font-size:14px;
+    
+  
+}
+
+h3{
+    
+    color: #ff4e00;
+    font-family: 'Kaushan Script', cursive, arial, helvetica, sans-serif;
+    font-size:14px;
+    text-align-last: center;
+}
+
+.span{
+    
+    color: #31912b;
+    margin: 0px 0px 20px 0px;
+}
+
+.span1{
+    
+    color: #e22371;
+    margin: 0px 0px 20px 0px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-banner{
+    
+    width: 60%;
+    height:60px;
+    background: white;
+    position: absolute;
+    left: auto;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    margin: 8px 10px 10px 0px;
+    font-size: 10px;
+     
+}
+
+#nav{
+    
+    margin: 0px 0px 0px 0px;
+    background: #184d66;
+    height: 50px;
+    padding: 0px 0px 0px 0px;
+    font-size: 6px;
+    
+}
+  
+#nav ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}   
+
+#nav ul li{
+    
+   display: inline-block;
+   position: relative;
+}  
+
+#nav ul li a{
+   
+    padding: 14px 1px 14px 1px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    left: 3px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    display: block;
+}  
+
+#nav ul li a:link,
+#nav ul li a:visited {
+    
+    
+    color: white;
+    text-decoration: none;
+    background: #184d66;
+}  
+
+#nav ul li a:hover {
+    
+    color: white;
+    text-decoration: none;
+    background: #fb5d2e;
+}  
+
+#nav ul li a:active {
+    
+    color: black;
+    text-decoration: none;
+    background: #fb5d2e;
+} 
+
+#nav ul li ul {
+    
+    position: absolute;
+    top: 100%;
+    width: 140px;
+    display: none; 
+    padding: 0px;
+    
+}
+
+#nav ul li:hover > ul {
+    
+    display: block;  
+}
+    
+#nav ul li ul li{
+    
+   display: block;
+}
+
+#nav ul li ul li:hover ul{
+    
+ display: block;
+ 
+    
+}
+
+#nav ul li ul li ul{
+    
+    top: 0px;
+    left: 100%;
+}
+
+#nav ul li ul li ul li{
+   
+    top: 0px;
+    left:0px;
+}
+    
+.a i{
+   
+    font-size: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainmain{
+
+   color: white;
+}
+
+#main{
+   
+    background: #1f425d;
+    height: 100%;
+    width: 100%;
+    padding: 2px 0px;
+}
+
+#main, h3{
+    
+   color: #ff4e00;
+   font-family: 'Kaushan Script', cursive, arial, helvetica, sans-serif;
+   font-size:14px;
+}
+
+.mainmain{
+   
+    text-align: start;
+    margin: 0px 20px;
+    font-size: 16px;
+
+}
+
+
+
+#main, span{
+   
+    color: #31912b;
+}
+
+#main, span1{
+   
+    color: #e22371;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* home index*/
+
+
+.claimhome{
+
+    height: 40px;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+} 
+
+#main-mainhome ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}   
+
+#main-mainhome ul li{
+    
+   display: inline-block;
+   position: relative;
+}  
+
+#main-mainhome ul li a{
+   
+    padding: 4px 12px;
+    height: 12px;
+    line-height: 12px;
+    position: relative;
+    left: 0px;
+    right: 50px;
+    bottom: 0px;
+    top: 0px;
+    display: block;
+    border: 2px solid #d8e2dd;
+}  
+
+#main-mainhome ul li a:link,
+#main-mainhome ul li a:visited {
+    
+    color: white;
+    text-decoration: none;
+    background: #184d66;
+}  
+
+#main-mainhome ul li a:hover {
+    
+    color: white;
+    text-decoration: none;
+    background: #fb5d2e;
+}  
+
+#main-mainhome ul li a:active {
+    
+    color: black;
+    text-decoration: none;
+    background: #fb5d2e;
+} 
+
+#main-mainhome {
+   
+    
+    height: 100%;
+    padding: 15px 42px;
+    margin:0px;
+    background:#1f425d;
+    display: block;
+    text-align: center;
+    border-bottom: 3px solid #d8e2dd;
+    border-top: 3px solid #d8e2dd;
+
+}
+
+
+#main-mainhome h2{
+   
+    color: #e1f45a;
+    font-family: Times new Roman;
+    text-align: center;
+    margin: 5px;
+    font-size: 18px;
+  
+   
+}
+
+#main-mainhome p{
+   
+    color: white;
+    font-family: Helvetica;
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    
+}
+
+.homes{
+
+   
+   color:#f9d406;
+  font-size:14px;
+   
+}
+
+
+/* end home index */
+
+
+
+
+
+/*script*/
+
+
+        .slideshow-container {
+        width: 100%;
+        margin:0px 0px -46px 0px;
+        padding: 76px 0px 0px 0px;
+        border-color: black;
+        background: #cce7e8;
+            
+        }
+
+        .slider_img {
+        width:100%;
+        height: 350px;
+        margin: 0px -40px 0px 0px;
+       
+        }
+    
+        .slider_img p{
+        
+         font-size: 12px;
+            
+        }
+    
+        .slider_img img{
+        width: 100%;
+        height 30px;
+        display: block;
+        margin: 0 auto;
+            
+        }
+    
+        .textdesc {
+        width: 100%;
+        display: block;
+        margin: 0px 20px 0px 0px ;
+        padding: 23px 0px 23px 0px;
+        text-align: right;
+        background: #BBB;
+        font-size: 6px;
+             
+        }
+    
+/* Next & previous buttons */
+    
+        .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 664%;
+        width: auto;
+        padding:  4px;
+        margin-top: 0px;
+        color: plum;
+        font-weight: bold;
+        font-size: 12px;
+        user-select: none;
+        background: plum;
+            
+        }
+
+        .prev {
+            
+        position: absolute;
+        right: 95.2%;
+            
+        }
+
+        .prev, 
+        :link {
+        color: blue;
+        }
+    
+        .prev, 
+        :visited {
+        color: blue;
+        }
+
+        .prev:hover {
+        background-color: purple; 
+        }
+    
+        .prev:active {
+        background-color: purple;  
+        }
+        
+/* Position the "next button" to the right */
+    
+        .next {
+        right: 0;
+        border-radius: 4px 0 0 4px;   
+        }
+    
+        .next, 
+        :link {
+        color: blue;
+        }
+    
+        .next, 
+        :visited {
+        color: blue;
+        }
+
+        .next:hover {
+        background-color: purple; 
+        }
+    
+        .next:active {
+        background-color: purple;  
+        }
+
+/* Caption text */ 
+    
+        .text {
+        color: black;
+        font-size: 6px;
+        padding: 8px 1px;
+        position: relative;
+        bottom: 8px;
+        width: 100%;
+     
+            
+        }
+
+/* The dots/bullets/indicators */
+    
+        .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 10px 1px 10px 1px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        bottom: 0px; 
+            
+        }
+
+        .active, .dot:hover {
+        background-color: green;
+            
+        }
+
+        .dot:hover {
+        background-color: red;
+            
+            
+        }
+
+
+    .mySlides fade{
+        
+    width: 200px;
+    height: 50px;
+}
+    
+    .link{
+
+       
+    height: 20px;
+  
+
+} 
+
+
+
+
+
+
+/* script */ 
+
+
+.crypto{
+
+    text-align: center;
+    color: #e0ff2b;
+    margin: 10px 0px 51px 0px;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+
+/*back to top button */
+
+#button {
+  display: inline-block;
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 8px;
+  right: 8px;
+  transition: background-color .3s; 
+  opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.5em;
+  line-height: 30px;
+  color: #1f425d;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #22aee6;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+/* end back to top button */
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+ 
+
+#footer{
+    
+    background:#002166;
+    height: 100%;
+    clear: both;
+    color: white;
+    font-size: 20px;
+    padding: 25px 40px 0px 40px;
+    margin: 20px 150px 0px 0xp;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#footer h3{
+    
+    color: #ff4e00;
+    padding: 7px 20px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Kaushan Script', cursive, arial, helvetica, sans-serif;
+    font-size:14px;
+}
+
+
+#footer p{
+
+    font-family: Verdana;
+    font-size: 10px;
+    color: #fff;
+    padding: 0px 0px 20px 0px;
+    margin: 10px;
+}
+
+#footer a{
+
+    color: white;
+}
+
+#footer a:link
+#footer a:visited{
+
+    color: white;
+}
+
+#footer a:hover{
+
+    color: white;
+}
+
+#footer a:active{
+
+    color: white;
+}
+
+.copy{
+
+    
+    font-size: 24px;
+    
+}
+
+/*end footer*/
+
+
+
+
+
+
+
+
+
+
+
+/*social media*/
+
+
+.spanfooter{
+
+   color: #e0ff2b;
+   font-size: 12px;
+   font-family: cursive;
+     
+}
+
+.spanfacebook{
+
+   color: green;
+   font-size: 14px;
+    
+}
+
+.spanfacebook a i{
+
+   color: lightblue;
+   font-size: 14px;
+    
+}
+
+.spaninstagram{
+
+   color: blue;
+   font-size: 14px;
+    
+}
+
+.spaninstagram a i{
+
+   color: #db5451;
+   font-size: 14px;
+    
+}
+
+.spantwitter{
+
+   color: blue;
+   font-size: 14px;
+    
+}
+
+.spantwitter a i{
+
+   color: #32aadb;
+   font-size: 14px;
+    
+}
+
+.spanvk{
+
+   color: blue;
+   font-size: 14px;
+    
+}
+
+.spanvk a i{
+
+   color: #2787f5;
+   font-size: 14px;
+    
+}
+
+.spantelegram{
+
+   color: aqua;
+   font-size: 14px;
+    
+}
+
+.spantelegram a i{
+
+   color:#3e94cc;
+   font-size: 14px;
+    
+}
+
+.spanpinterest{
+
+   color: aqua;
+   font-size: 14px;
+    
+}
+
+.spanpinterest a i{
+
+   color:#e60023;
+   font-size: 14px;
+    
+}
+
+.spanlinkedin{
+
+   color: aqua;
+   font-size: 14px;
+    
+}
+
+.spanlinkedin a i{
+
+   color:#0a66c2;
+   font-size: 14px;
+    
+}
+
+.spanquora{
+
+   color: aqua;
+   font-size: 14px;
+    
+}
+
+.spanquora a i{
+
+   color:#b92b27;
+   font-size: 18px;
+    
+}
+
+.spanquora{
+
+   color: aqua;
+   font-size: 14px;
+    
+}
+
+.spanquora a i{
+
+   color:#b92b27;
+   font-size: 14px;
+    
+}
+
+.spanyoutube{
+
+   color: aqua;
+   font-size: 14px;
+    
+}
+
+.spanyoutube a i{
+
+   color:#ff0101;
+   font-size: 14px;
+    
+}
+
+.spandiscord{
+
+   color: aqua;
+   font-size: 14px;
+    
+}
+
+.spandiscord a i{
+
+   color:#768edb;
+   font-size: 14px;
+    
+}
+
+.spanblogger{
+
+   color: aqua;
+   font-size: 14px;
+    
+}
+
+.spanblogger a i{
+
+   color:#f57c00;
+   font-size: 14px;
+    
+}
+
+
+/*end social media*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*new social media*/
+
+
+.spansftyou{
+
+   color: aqua;
+   font-size: 14px;
+    
+}
+
+.spansftyou a i{
+
+   color:#712ea1;
+   font-size: 14px;
+    
+}
+
+.spanwishoo{
+
+   color: aqua;
+   font-size: 14px;
+    
+}
+
+.spanwishoo a i{
+
+   color:#f75249;
+   font-size: 18px;
+    
+}
+
+.spanblebleto{
+
+   color: aqua;
+   font-size: 14px;
+    
+}
+
+.spanblebleto a i{
+
+   color:#3f78c2;
+   font-size: 14px;
+    
+}
+
+.spanuhive{
+
+   color: aqua;
+   font-size: 14px;
+    
+}
+
+.spanuhive a i{
+
+   color:#2979ff;
+   font-size: 14px;
+    
+}
+
+.spanziktalk{
+
+   color: aqua;
+   font-size: 14px;
+    
+}
+
+.spanziktalk a i{
+
+   color:#00b6c7;
+   font-size: 18px;
+    
+}
+
+.spancrypto{
+
+   color: aqua;
+   font-size: 14px;
+    
+}
+
+.spancrypto a i{
+
+   color:#2295d4;
+   font-size: 14px;
+     
+}
+
+
+/*end new social media*/
+
+
+
+
+/* copyright */
+
+#reserved{
+
+    background: #031843;
+    color: #fff;
+    font-family: Verdana;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    margin:-16px 0px -16px 0px;
+}
+
+#reserved p{
+    
+    font-family: Verdana;
+    font-size: 8px;
+    color: #fff;
+    padding: 10px 0px 15px 0px;
+
+}
+
+
+/* end copyright */
+
+
+
+
+
+
+
+
+
+
+
+/* nav-nav */
+
+
+#nav-nav{
+    
+    background: #184d66;
+    height: 50px;
+    clear: both;
+    margin: 0px;
+    padding: 0px 15px 0px 0px;
+    font-size: 6px;
+
+}
+
+#nav-nav ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none; 
+} 
+
+#nav-nav ul li{
+    
+   display: inline-block;
+ 
+}  
+
+#nav-nav ul li a{
+    
+    padding: 14px 2px 14px 2px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+
+}  
+
+#nav-nav ul li a:link,
+#nav-nav ul li a:visited {
+    
+    background: #184d66;
+    color: white;
+    text-decoration: none;
+}  
+
+#nav-nav ul li a:hover {
+    
+    color: white;
+    text-decoration: none;
+    background: #fb5d2e;
+}  
+
+#nav-nav ul li a:active {
+    
+    color: white;
+    text-decoration: none;
+    background: #fb5d2e;
+} 
+
+
+/* end nav-nav */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* email 2020 */
+
+/* email 1 milion */
+
+/* email world */
+
+#main1 {
+    
+   
+    height: 100%;
+    padding: 0px;
+    margin: 20px 0px;
+    float: left;
+}
+
+#main1 h5{
+    
+   padding: 20px 0px 40px 0px;
+   text-align:center;
+}
+
+#main1{
+    
+    font-family: cursive,Helvetica,Verdana,sans-serif;
+    height: 100%;
+ 
+}
+
+#main1 h2{
+    
+    font-family: cursive,sans-serif;
+    color: #d2fa09;
+    margin: 20px 0 30px;
+    padding: 0px;
+    text-align: center;
+    font-size: 26px;
+
+}
+
+
+.link20{
+    
+    width: 180px;
+    height: 60px;
+    font-size: 14px; 
+    background: red;
+    list-style: none;
+    text-align: center;
+    display: block;
+    padding:0px;
+    margin: 0px 0px 0px 50px;
+
+}
+
+.american{
+
+   margin:0px 0px 0px 40px;
+ 
+}
+
+.america{
+    
+  display:inline-block;
+  float:left;
+ 
+}
+
+.banner1200x100{
+    
+    width:98%;
+    height:100px;
+    background:white;
+    display:block;
+    margin:0px 0px 45px 8px;
+}
+
+.link2020{
+    
+    width: 180px;
+    height: 60px;
+    font-size: 14px; 
+    background: red;
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    padding:0px;
+    margin: 20px 0px 0px 0px;
+    display:inline-block;
+
+}
+
+#main1 ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none; 
+} 
+
+#main1 ul li{
+    
+   display: block;
+}  
+
+#main1 ul li a{
+   
+    padding: 10px 45.4px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+}  
+
+#main1 ul li a:link,
+#main1 ul li a:visited {
+    
+    background: #184d66;
+    color: white;
+    text-decoration: none;
+}  
+
+#main1 ul li a:hover {
+    
+    color: white;
+    text-decoration: none;
+    background: orange;
+}  
+
+#main1 ul li a:active {
+    
+    color: white;
+    text-decoration: none;
+    background: orange;
+} 
+
+
+/* end email 2020 */
+
+/* end email 1 milion */
+
+/* end email world */
+
+
+
+
+
+
+
+/* email 2020 */
+
+/* email 1 milion a-z*/
+
+/* email world */
+
+#maina{
+    
+    width: 100%;
+    height: 100%;
+    padding: 0px 0px 30px 0px;
+    margin: 20px 0px 60px 0px;
+    background: #73c3d1;
+  
+    
+}
+
+#maina h2{
+    
+    font-family: cursive,sans-serif;
+    color: #d2fa09;
+    margin: 20px 0 30px;
+    padding: 0px;
+    text-align: center;
+    font-size: 22px;
+
+}
+    
+#maina p{
+    
+    margin: 0xp 10px;
+}
+    
+.response{
+
+    color: black;
+    font-size: 16px;
+    font-family: cursive,sans-serif;
+    margin: 0px;
+    padding: 15px 0px 10px 10px;
+} 
+
+.gogle2 {
+    
+    width: 94.5%;
+    height: 90px;
+    background: white;
+    color: black;
+    margin: 35px 10px 40px 20px;
+    float: left;
+}
+
+#article1 {
+    
+    width: 98%;
+    height: 300px;
+    background: white;
+    color: black;
+    margin: 0px 10px 30px 7px;
+    float: left; 
+} 
+
+/* end email 2020 */
+
+/* end email 1 milion a-z*/
+
+/* end email world */
+
+
+
+
+
+
+
+
+
+.e {
+    
+    font-size: 20px;
+    text-align: center;
+}
+
+#main, h5{
+    
+    font-size: 18px;
+    color: purple;
+    text-align: center;
+}
+
+#main, p{
+    
+    color: black;
+}
+
+
+
+
+
+
+
+
+/* contextual */
+
+
+#card {
+    
+    
+    width:100%;
+    
+    
+
+}
+
+.card {
+    
+    display:inline-block;
+    flex-basis:400;
+    margin: 30px 15px 30px 10px;
+    padding: 0px;
+    text-align: center;
+
+}
+
+
+.card p{
+    
+    background: white;
+    border: 2px solid #003352;
+    color:black;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 16px 5px;
+    width: 90px;
+    font-size: 10px;
+}
+
+
+/* end contextual */
+
+
+/* airdrop */
+
+
+#airdrops{
+    
+    font-family: cursive;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+#airdrops h2{
+    
+    font-family: cursive,sans-serif;
+    color: #d2fa09;
+    padding: 0px;
+    text-align: center;
+    margin:0px 0px 0px 0px;
+    font-size: 20px;
+
+}
+
+#airdrops p{
+     
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    margin: 10px 30px 20px 10px;
+}
+
+#mainairdrop{
+    
+    width: 100%;
+    height: 100%;
+    padding: 15px 0px;
+    position: relative;
+    left:0px;
+    
+}
+
+
+.main-main1{
+    
+   width: 100%;
+   height: 100%;
+   background: white;
+   padding: 10px 0px 80px 0px;
+   margin: 0px 0px 40px 0px;
+   display: block;
+} 
+
+
+.main-main1 h3{
+    
+   color: purple;
+   font-family: cursive;
+   text-align: center;
+   font-size: 20px;
+   
+} 
+
+.main-main1, p{
+    
+   font-size:12px;
+   padding:-10px 10px -10px 10px;
+   
+} 
+
+.claim1{
+
+    height: 50px;
+    position: relative;
+    left: 140px;
+    bottom: 0px;
+} 
+
+.main-main1 ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}   
+
+.main-main1 ul li{
+    
+   display: inline-block;
+   position: absolute;
+}  
+
+.main-main1 ul li a{
+   
+    padding: 5px 15px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    display: block;
+}  
+
+.main-main1 ul li a:link,
+.main-main1 ul li a:visited {
+    
+    color: white;
+    text-decoration: none;
+    background: #184d66;
+}  
+
+.main-main1 ul li a:hover {
+    
+    color: white;
+    text-decoration: none;
+    background: #fb5d2e;
+}  
+
+.main-main1 ul li a:active {
+    
+    color: black;
+    text-decoration: none;
+    background: #fb5d2e;
+} 
+
+.banner1200{
+    
+    width:100%;
+    height:100px;
+    background:white;
+    display:block;
+    margin:0px 0px 45px 0px;
+}
+
+
+/* end airdrop */
+
+
+
+
+
+
+
+
+
+
+
+/* crypto games */
+
+
+#games{
+    
+    font-family: cursive;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+#games h2{
+    
+    font-family: cursive,sans-serif;
+    color: #d2fa09;
+    margin: 20px 0px 10px 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 22px; 
+
+}
+
+#games p{
+     
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    margin: 0px 20px 20px 20px;
+ 
+}
+
+#main product {
+    
+    background: white;
+        
+}
+
+#products {
+    
+    display: block;
+    margin: 0px 0px 40px -70px;
+    text-align: center;
+}
+
+.products, img{
+    
+    width: 150px;
+}
+    
+.product {
+    
+    flex-basis:100%;
+    margin: -2px 10px 60px 70px;
+    padding: 0px;
+}
+
+.product p{
+    
+    background: #042f66;
+    border: 4px solid #645eaf;
+    color:white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 5px;
+    width: 135px;
+    margin:auto;
+
+}
+
+.product p:hover{
+    
+    background: orange;
+}
+
+.cryptoads {
+    
+    width: 100%;
+    height: 170px;
+    background: white;
+    color: black;
+    margin: -20px 0px 82px 0px;
+    display: flex;
+    justify-content:space-between;
+    position: relative;
+    left: 0px;
+}
+
+.cryptoads:hover{
+    
+    background: white;
+    
+}
+
+
+/* end crypto games */
+
+
+
+
+
+
+
+
+
+
+
+/* crypto social media */
+
+
+#social{
+    
+    font-family: cursive;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+#social h2{
+    
+    font-family: cursive,sans-serif;
+    color: #d2fa09;
+    margin: 20px 0px 10px 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 22px; 
+
+}
+
+#social p{
+     
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    margin: 0px 20px 20px 20px;
+ 
+}
+
+#main productt {
+    
+    background: white;
+        
+}
+
+#productss {
+    
+    display: block;
+    margin: 0px 0px 40px -70px;
+    text-align: center;
+}
+
+.productss, img{
+    
+    width: 150px;
+}
+    
+.productt {
+    
+    flex-basis:100%;
+    margin: -2px 10px 60px 70px;
+    padding: 0px;
+}
+
+.productt p{
+    
+    background: #042f66;
+    border: 4px solid #645eaf;
+    color:white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 5px;
+    width: 135px;
+    margin:auto;
+
+}
+
+.productt p:hover{
+    
+    background: orange;
+}
+
+.socialads {
+    
+    width: 100%;
+    height: 170px;
+    background: white;
+    color: black;
+    margin: 0px 0px 82px 0px;
+    position: relative;
+    left:0px;
+    
+    
+}
+
+.socialads:hover{
+    
+    background: white;
+    
+}
+
+
+/* end crypto social media */
+
+
+
+
+
+
+/*  */ 
+
+
+#gift {
+    
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.baner81x31 {
+    
+    width: 81px;
+    height: 31px;
+    background: white;
+    margin: 15px 5px 25px 31px;
+    float: left;
+}
+
+.baner100x100 {
+    
+    width: 100px;
+    height: 100px;
+    background: white;
+    margin: 15px 5px 25px 31px;
+    float: left;
+}
+
+.baner125x125 {
+    
+    width: 125px;
+    height: 125px;
+    background: white;
+    margin: 20px 5px 25px 50px;
+    float: left;
+}
+
+.baner150x150{
+    
+    width: 150px;
+    height: 150px;
+    background: white;
+    margin: 20px 5px 25px 27px;
+    float: left;
+}
+
+.baner180x150{
+    
+    width: 150px;
+    height: 150px;
+    background: white;
+    margin: 20px 5px 25px 27px;
+    float: left;
+}
+
+.baner234x60 {
+    
+    width: 234px;
+    height: 60px;
+    background: white;
+    margin: 20px 10px 25px 30px;
+    float: left;
+}
+
+.baner240x60 {
+    
+    width: 240px;
+    height: 60px;
+    background: white;
+    margin: 20px 5px 25px 28px;
+    float: left;
+}
+
+.baner200x200 {
+    
+    width: 200px;
+    height: 200px;
+    background: white;
+    margin: 20px 20px 25px 52px;
+    float: left;
+}
+
+.baner250x250 {
+    
+    width: 250px;
+    height: 250px;
+    background: white;
+    margin: 20px 15px 25px 60px;
+    float: left;
+}
+
+.baner200x300 {
+    
+    width: 200px;
+    height: 300px;
+    background: white;
+    margin: 20px 0px 25px 32px;
+    float: left;
+}
+
+.baner250x300 {
+    
+    width: 250px;
+    height: 300px;
+    background: white;
+    margin: 20px 0px 25px 23px;
+    float: left;
+}
+
+.baner240x400{
+    
+    width: 240px;
+    height: 400px;
+    background: white;
+    margin: 20px 10px 25px 25px;
+    float: left;
+}
+
+.baner300x250 {
+    
+    width: 300px;
+    height: 250px;
+    background: white;
+    margin: 20px 5px 25px 23.5px;
+    float: left;
+}
+
+.baner350x50 {
+    
+    width: 350px;
+    height: 50px;
+    background: white;
+    margin: 20px 5px 25px 49px;
+    float: left;
+}
+
+.baner336x280 {
+    
+    width: 336px;
+    height: 280px;
+    background: white;
+    margin: 20px 5px 25px 62px;
+    float: left;
+}
+
+.baner336x280 {
+    
+    width: 336px;
+    height: 280px;
+    background: white;
+    margin: 20px 5px 25px 62px;
+    float: left;
+}
+
+.baner468x60 {
+    
+    width: 100%;
+    height: 60px;
+    background: white;
+    margin: 20px 0px 25px 0px;
+    float: left;
+}
+
+.baner468x80 {
+    
+    width: 100%;
+    height: 80px;
+    background: white;
+    margin: 20px 0px 25px 0px;
+    float: left;
+}
+
+.baner728x90 {
+    
+    width: 90%;
+    height: 90px;
+    background: white;
+    margin: 20px 10px 25px 37px;
+    float: left;
+
+}
+
+.baner728x300 {
+    
+    width: 90%;
+    height: 300px;
+    background: white;
+    margin: 20px 10px 25px 37px;
+    float: left;
+
+}
+
+.baner80x468 {
+    
+    width: 80px;
+    height: 468px;
+    background: white;
+    margin: 20px 17px 25px 21.2px;
+    float: left;
+}
+
+.baner120x60 {
+    
+    width: 120px;
+    height: 60px;
+    background: white;
+    margin: 20px 10px 25px 34px;
+    float: left;
+}
+
+.baner120x90 {
+
+    width: 120px;
+    height: 90px;
+    background: white;
+    margin: 20px 10px 25px 34px;
+    float: left;
+}
+
+.baner120x240 {
+
+    width: 120px;
+    height: 240px;
+    background: white;
+    margin: 20px 10px 25px 34px;
+    float: left;
+}
+
+.baner120x600 {
+    
+    width: 120px;
+    height: 600px;
+    background: white;
+    margin: 20px 17px 25px 28px;
+    float: left;
+}
+
+.baner160x600 {
+    
+    width: 160px;
+    height: 600px;
+    background: white;
+    margin: 20px 20px 25px 0px;
+    float: left;
+}
+
+.baner300x600 {
+    
+    width: 300px;
+    height: 600px;
+    background: white;
+    margin: 20px 0px 25px 0px;
+    float: left;
+}
+
+.baner930x170 {
+    
+    width: 100%;
+    height: 170px;
+    background: white;
+    margin: 20px 0px 25px 0px;
+    float: left;
+}
+
+.baner1000x90 {
+    
+    width: 100%;
+    height: 90px;
+    background: white;
+    margin: 20px 0px 25px 0px;
+    float: left;
+}
+
+.baner1170x100 {
+    
+    width: 100%;
+    height: 100px;
+    background: white;
+    margin: 20px 0px 25px 0px;
+    float: left;
+}
+
+.baner1200x100 {
+    
+    width: 100%;
+    height: 100px;
+    background: white;
+    margin: 20px 0px 25px 0px;
+    float: left;
+}
+
+/* end BaNNer */ 
+
+
+
+
+
+
+
+/* contact */
+
+#main-maincontact1{
+ 
+    margin: 0px 0px 50px 0px;
+    
+} 
+
+#main-maincontact1 h2{
+    
+    text-align:center;
+    font-size: 26px;
+    margin: 0px 0px 0px 0px;
+    color: yellow;
+    
+} 
+
+#main-maincontact1 p{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 14px;
+    color: white;
+    padding:0 0 0 0px;
+    
+}
+
+/* end contact */
+
+
+
+
+
+
+
+
+
+/* use policy */
+
+
+#usepolicy{
+ 
+    margin: 0px 0px 50px 0px;
+    
+} 
+
+#usepolicy h2{
+    
+    text-align:center;
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+    color: yellow;
+    
+} 
+
+#usepolicy h6{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 18px;
+    padding:0 0 0 20px;
+    
+} 
+
+#usepolicy p{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 16px;
+    color: white;
+    padding:0 0 0 20px;
+    
+} 
+
+
+
+/* end use policy */
+
+
+
+
+/* questionsandanswers */
+
+
+
+#questionsandanswers{
+ 
+    margin: 0px 0px 50px 0px;
+    
+} 
+
+#questionsandanswers h2{
+    
+    text-align:center;
+    font-size: 18px;
+    margin: 0px 0px 0px 0px;
+    color: yellow;
+    
+} 
+
+#questionsandanswers h6{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 16px;
+    padding:0 0 0 20px;
+    
+} 
+
+#questionsandanswers p{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 14px;
+    color: white;
+    padding:0 0 0 20px;
+    
+}
+    
+
+
+/* end questionsandanswers */
+
+
+
+
+
+
+/* rules */
+
+
+
+#rules{
+ 
+    margin: 0px 0px 50px 0px;
+    
+} 
+
+#rules h2{
+    
+    text-align:center;
+    font-size: 18px;
+    margin: 0px 0px 0px 0px;
+    color: yellow;
+    
+} 
+
+#rules h6{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 16px;
+    padding:0 0 0 20px;
+    color:gold;
+    
+} 
+
+#rules p{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 14px;
+    color: white;
+    padding:0 0 0 20px;
+    
+}
+
+
+/* end rules */
+
+
+
+
+
+a:link
+a:visited{
+   
+    color: black;
+} 
+
+
+a:hover
+a:active{
+   
+    color: aqua;
+} 
+
+    
+    
+    
+    
+    
+}
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 419px) { 
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+      
+body{ 
+    margin: 0px;
+    padding: 0px;
+    font-family: The roman, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-image: url(Images/pozadina%202.png);
+    background:white;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+    
+h1, h2, h3, h4, h5, h6 {
+    font-family: The roman, Arial, Helvetica, sans-serif;
+}
+
+h1 {font-size: 36px}
+
+h2 {font-size: 30px}
+
+h3 {font-size: 26px}
+
+h4 {font-size: 24px}
+
+h5 {font-size: 20px}
+
+h6 {font-size: 18px}
+
+p {
+    font-family: The new roman, Arial, Helvetica, sans-serif; 
+    font-size: 14px;
+}
+
+#wrapper{
+    
+    background: #1f425d;
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+}
+     
+#header{
+    width: 100%;
+    background: #c7ebf3;
+    height: 100%; 
+    margin: 0px;
+    animation: header-change infinite 0s ease;
+}
+
+@keyframes header-change {
+    
+    0%{ background: #303030;}
+    
+    0%{ background: #019ac4;}
+    
+    0%{ background: #92409d;}
+    
+    0%{ background: #234f9a;}
+    
+    0%{ background: #b61a3f;}
+}
+
+#footer{
+    
+    color: black;
+    text-align: center;
+    clear:both;
+} 
+
+
+
+.h1, h1{
+    
+    color: #ff4e00;
+    padding: 15px 0px 15px 10px;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Kaushan Script', cursive, arial, helvetica, sans-serif;
+    font-size:12px;
+  
+}
+
+h3{
+    
+    color: #ff4e00;
+    font-family: 'Kaushan Script', cursive, arial, helvetica, sans-serif;
+    font-size:12px;
+    text-align-last: center;
+}
+
+.span{
+    
+    color: #31912b;
+    margin: 0px 0px 20px 0px;
+}
+
+.span1{
+    
+    color: #e22371;
+    margin: 0px 0px 20px 0px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-banner{
+    
+    width: 60%;
+    height:60px;
+    background: white;
+    position: absolute;
+    left: auto;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    margin: 8px 10px 10px 0px;
+    font-size: 8px;
+    
+}
+
+#nav{
+    
+    margin: 0px 0px 0px 0px;
+    background: #184d66;
+    height: 50px;
+    padding: 0px 0px 0px 0px;
+    font-size: 6px;
+    
+}
+  
+#nav ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}   
+
+#nav ul li{
+    
+   display: inline-block;
+   position: relative;
+}  
+
+#nav ul li a{
+   
+    padding: 15px 0px 15px 0px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    left: 1px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    display: block;
+}  
+
+#nav ul li a:link,
+#nav ul li a:visited {
+    
+    
+    color: white;
+    text-decoration: none;
+    background: #184d66;
+}  
+
+#nav ul li a:hover {
+    
+    color: white;
+    text-decoration: none;
+    background: #fb5d2e;
+}  
+
+#nav ul li a:active {
+    
+    color: black;
+    text-decoration: none;
+    background: #fb5d2e;
+} 
+
+#nav ul li ul {
+    
+    position: absolute;
+    top: 100%;
+    width: 140px;
+    display: none; 
+    padding: 0px;
+    
+}
+
+#nav ul li:hover > ul {
+    
+    display: block;  
+}
+    
+#nav ul li ul li{
+    
+   display: block;
+}
+
+#nav ul li ul li:hover ul{
+    
+ display: block;
+ 
+    
+}
+
+#nav ul li ul li ul{
+    
+    top: 0px;
+    left: 100%;
+}
+
+#nav ul li ul li ul li{
+   
+    top: 0px;
+    left:0px;
+}
+    
+
+    
+.a i{
+   
+    font-size: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainmain{
+
+   color: white;
+}
+
+#main{
+   
+    background: #1f425d;
+    height: 100%;
+    width: 100%;
+    padding: 2px 0px;
+}
+
+#main, h3{
+    
+   color: #ff4e00;
+   font-family: 'Kaushan Script', cursive, arial, helvetica, sans-serif;
+   font-size:12px;
+}
+
+.mainmain{
+   
+    font-family: ;
+    text-align: start;
+    margin: 0px 20px;
+    font-size: 16px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* home index*/
+
+
+.claimhome{
+
+    height: 40px;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+} 
+
+#main-mainhome ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}   
+
+#main-mainhome ul li{
+    
+   display: inline-block;
+   position: relative;
+}  
+
+#main-mainhome ul li a{
+   
+    padding: 4px 12px;
+    height: 12px;
+    line-height: 12px;
+    position: relative;
+    left: 0px;
+    right: 50px;
+    bottom: 0px;
+    top: 0px;
+    display: block;
+    border: 2px solid #d8e2dd;
+}  
+
+#main-mainhome ul li a:link,
+#main-mainhome ul li a:visited {
+    
+    color: white;
+    text-decoration: none;
+    background: #184d66;
+}  
+
+#main-mainhome ul li a:hover {
+    
+    color: white;
+    text-decoration: none;
+    background: #fb5d2e;
+}  
+
+#main-mainhome ul li a:active {
+    
+    color: black;
+    text-decoration: none;
+    background: #fb5d2e;
+} 
+
+#main-mainhome {
+   
+    height: 100%;
+    padding: 15px 42px;
+    margin:0px;
+    background:#1f425d;
+    display: block;
+    text-align: center;
+    border-bottom: 3px solid #d8e2dd;
+    border-top: 3px solid #d8e2dd;
+
+}
+
+
+#main-mainhome h2{
+   
+    color: #e1f45a;
+    font-family: Times new Roman;
+    text-align: center;
+    margin: 5px;
+    font-size: 18px;
+  
+   
+}
+
+#main-mainhome p{
+   
+    color: white;
+    font-family: Helvetica;
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    
+}
+
+.homes{
+
+   
+   color:#f9d406;
+  font-size:14px;
+   
+}
+
+
+/* end home index */
+
+
+
+
+
+/*script*/
+
+
+        .slideshow-container {
+        width: 100%;
+        margin:0px 0px -46px 0px;
+        padding: 76px 0px 0px 0px;
+        border-color: black;
+        background: #cce7e8;
+            
+        }
+
+        .slider_img {
+        width:91%;
+        height: 350px;
+        margin: 0px -40px 0px 18px;
+       
+        }
+    
+        .slider_img p{
+        
+         font-size: 12px;
+            
+        }
+    
+        .slider_img img{
+        width: 95%;
+        height 30px;
+        display: block;
+        margin: 0 auto;
+            
+        }
+    
+        .textdesc {
+        width: 85%;
+        display: block;
+        margin: 0px 20px 10px 8px;
+        padding: 23px 20px;
+        text-align: right;
+        background: #BBB;
+        font-size: 16px;
+             
+        }
+    
+/* Next & previous buttons */
+    
+        .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 705%;
+        width: auto;
+        padding:  8px;
+        margin-top: 0px;
+        color: plum;
+        font-weight: bold;
+        font-size: 12px;
+        user-select: none;
+        background: plum;
+            
+        }
+
+        .prev {
+            
+        position: absolute;
+        right: 94%;
+            
+        }
+
+        .prev, 
+        :link {
+        color: blue;
+        }
+    
+        .prev, 
+        :visited {
+        color: blue;
+        }
+
+        .prev:hover {
+        background-color: purple; 
+        }
+    
+        .prev:active {
+        background-color: purple;  
+        }
+        
+/* Position the "next button" to the right */
+    
+        .next {
+        right: 0;
+        border-radius: 4px 0 0 4px;   
+        }
+    
+        .next, 
+        :link {
+        color: blue;
+        }
+    
+        .next, 
+        :visited {
+        color: blue;
+        }
+
+        .next:hover {
+        background-color: purple; 
+        }
+    
+        .next:active {
+        background-color: purple;  
+        }
+
+/* Caption text */ 
+    
+        .text {
+        color: black;
+        font-size: 10px;
+        padding: 8px 12px;
+        position: relative;
+        bottom: 8px;
+        width: 100%;
+     
+            
+        }
+
+/* The dots/bullets/indicators */
+    
+        .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 30px 1px 10px 1px;
+        background-color: yellow;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        bottom: 0px; 
+            
+        }
+
+        .active, .dot:hover {
+        background-color: green;
+            
+        }
+
+        .dot:hover {
+        background-color: red;
+            
+            
+        }
+
+
+    .mySlides fade{
+        
+    width: 100%;
+    height: 50px;
+}
+    
+    .link{
+
+    height: 20px;
+    position: relative;
+    right: 100px;
+
+} 
+
+
+
+
+
+
+/* script */ 
+
+
+.crypto{
+
+    text-align: center;
+    color: #e0ff2b;
+    margin: 10px 0px 51px 0px;
+    font-family: cursive;
+    font-size: 12px;
+}
+
+
+/*back to top button */
+
+#button {
+  display: inline-block;
+  background-color: white;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  transition: background-color .3s; 
+  opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.5em;
+  line-height: 25px;
+  color: #1f425d;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #22aee6;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+/* end back to top button */
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+ 
+
+#footer{
+    
+    background:#002166;
+    height: 100%;
+    clear: both;
+    color: white;
+    font-size: 12px;
+    padding: 25px 40px 0px 25px;
+    margin: 20px 150px 0px 0xp;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#footer h3{
+    
+    color: #ff4e00;
+    padding: 7px 20px 0px 20px;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Kaushan Script', cursive, arial, helvetica, sans-serif;
+    font-size:12px;
+}
+
+
+#footer p{
+
+    font-family: Verdana;
+    font-size: 10px;
+    color: #fff;
+    padding: 0px 0px 20px 0px;
+    margin: 6px;
+}
+    
+#footer p a{
+
+    font-size:8px;
+}
+
+#footer a{
+
+    color: white;
+}
+
+#footer a:link
+#footer a:visited{
+
+    color: white;
+}
+
+#footer a:hover{
+
+    color: white;
+}
+
+#footer a:active{
+
+    color: white;
+}
+
+.copy{
+
+    
+    font-size: 22px;
+    
+}
+
+/*end footer*/
+
+
+
+
+
+
+
+
+
+
+
+/*social media*/
+
+
+.spanfooter{
+
+   color: #e0ff2b;
+   font-size: 8px;
+   font-family: cursive;
+     
+}
+
+.spanfacebook{
+
+   color: green;
+   font-size: 10px;
+    
+}
+
+.spanfacebook a i{
+
+   color: lightblue;
+   font-size: 10px;
+    
+}
+
+.spaninstagram{
+
+   color: blue;
+   font-size: 10px;
+    
+}
+
+.spaninstagram a i{
+
+   color: #db5451;
+   font-size: 10px;
+    
+}
+
+.spantwitter{
+
+   color: blue;
+   font-size: 10px;
+    
+}
+
+.spantwitter a i{
+
+   color: #32aadb;
+   font-size: 10px;
+    
+}
+
+.spanvk{
+
+   color: blue;
+   font-size: 10px;
+    
+}
+
+.spanvk a i{
+
+   color: #2787f5;
+   font-size: 10px;
+    
+}
+
+.spantelegram{
+
+   color: aqua;
+   font-size: 10px;
+    
+}
+
+.spantelegram a i{
+
+   color:#3e94cc;
+   font-size: 10px;
+    
+}
+
+.spanpinterest{
+
+   color: aqua;
+   font-size: 10px;
+    
+}
+
+.spanpinterest a i{
+
+   color:#e60023;
+   font-size: 10px;
+    
+}
+
+.spanlinkedin{
+
+   color: aqua;
+   font-size: 10px;
+    
+}
+
+.spanlinkedin a i{
+
+   color:#0a66c2;
+   font-size: 10px;
+    
+}
+
+.spanquora{
+
+   color: aqua;
+   font-size: 10px;
+    
+}
+
+.spanquora a i{
+
+   color:#b92b27;
+   font-size: 10px;
+    
+}
+
+.spanquora{
+
+   color: aqua;
+   font-size: 10px;
+    
+}
+
+.spanquora a i{
+
+   color:#b92b27;
+   font-size: 10px;
+    
+}
+
+.spanyoutube{
+
+   color: aqua;
+   font-size: 10px;
+    
+}
+
+.spanyoutube a i{
+
+   color:#ff0101;
+   font-size: 10px;
+    
+}
+
+.spandiscord{
+
+   color: aqua;
+   font-size: 10px;
+    
+}
+
+.spandiscord a i{
+
+   color:#768edb;
+   font-size: 10px;
+    
+}
+
+.spanblogger{
+
+   color: aqua;
+   font-size: 10px;
+    
+}
+
+.spanblogger a i{
+
+   color:#f57c00;
+   font-size: 10px;
+    
+}
+
+
+/*end social media*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*new social media*/
+
+
+.spansftyou{
+
+   color: aqua;
+   font-size: 10px;
+    
+}
+
+.spansftyou a i{
+
+   color:#712ea1;
+   font-size: 10px;
+    
+}
+
+.spanwishoo{
+
+   color: aqua;
+   font-size: 10px;
+    
+}
+
+.spanwishoo a i{
+
+   color:#f75249;
+   font-size: 10px;
+    
+}
+
+.spanblebleto{
+
+   color: aqua;
+   font-size: 10px;
+    
+}
+
+.spanblebleto a i{
+
+   color:#3f78c2;
+   font-size: 10px;
+    
+}
+
+.spanuhive{
+
+   color: aqua;
+   font-size: 10px;
+    
+}
+
+.spanuhive a i{
+
+   color:#2979ff;
+   font-size: 10px;
+    
+}
+
+.spanziktalk{
+
+   color: aqua;
+   font-size: 10px;
+    
+}
+
+.spanziktalk a i{
+
+   color:#00b6c7;
+   font-size: 10px;
+    
+}
+
+.spancrypto{
+
+   color: aqua;
+   font-size: 10px;
+    
+}
+
+.spancrypto a i{
+
+   color:#2295d4;
+   font-size: 10px;
+     
+}
+    
+
+
+/*end new social media*/
+
+
+
+
+/* copyright */
+
+#reserved{
+
+    background: #031843;
+    color: #fff;
+    font-family: Verdana;
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+    margin:-16px 0px -16px 0px;
+}
+
+#reserved p{
+    
+    font-family: Verdana;
+    font-size: 6px;
+    color: #fff;
+    padding: 10px 0px 15px 0px;
+
+}
+
+
+/* end copyright */
+
+
+
+
+
+
+
+
+
+
+
+/* nav-nav */
+
+
+#nav-nav{
+    
+    background: #184d66;
+    height: 50px;
+    clear: both;
+    margin: 0px;
+    padding: 0px 0px 0px 1px;
+    font-size: 6px;
+    
+}
+
+#nav-nav ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none; 
+} 
+
+#nav-nav ul li{
+    
+   display: inline-block;
+ 
+}  
+
+#nav-nav ul li a{
+    
+    padding: 15px 2px 15px 2px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+
+}  
+
+#nav-nav ul li a:link,
+#nav-nav ul li a:visited {
+    
+    background: #184d66;
+    color: white;
+    text-decoration: none;
+}  
+
+#nav-nav ul li a:hover {
+    
+    color: white;
+    text-decoration: none;
+    background: #fb5d2e;
+}  
+
+#nav-nav ul li a:active {
+    
+    color: white;
+    text-decoration: none;
+    background: #fb5d2e;
+} 
+
+
+.a i{
+   
+    font-size: 6px;
+}
+
+
+/* end nav-nav */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* email 2020 */
+
+/* email 1 milion */
+
+/* email world */
+
+#main1 {
+    
+   
+    height: 100%;
+    padding: 0px;
+    margin: 20px 0px;
+    float: left;
+}
+
+#main1 h5{
+    
+   padding: 20px 0px 40px 0px;
+   text-align:center;
+}
+
+#main1{
+    
+    font-family: cursive,Helvetica,Verdana,sans-serif;
+    height: 100%;
+ 
+}
+
+#main1 h2{
+    
+    font-family: cursive,sans-serif;
+    color: #d2fa09;
+    margin: 20px 0 30px;
+    padding: 0px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+
+.link20{
+    
+    width: 180px;
+    height: 60px;
+    font-size: 14px; 
+    background: red;
+    list-style: none;
+    text-align: center;
+    display: block;
+    padding:0px;
+    margin: 0px 0px 0px 50px;
+
+}
+
+.american{
+
+   margin:0px 0px 0px 40px;
+ 
+}
+
+.america{
+    
+  display:inline-block;
+  float:left;
+ 
+}
+
+.banner1200x100{
+    
+    width:96%;
+    height:100px;
+    background:white;
+    display:block;
+    margin:0px 0px 45px 8px;
+}
+
+.link2020{
+    
+    width: 180px;
+    height: 60px;
+    font-size: 14px; 
+    background: red;
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    padding:0px;
+    margin: 20px 0px 0px 0px;
+    display:inline-block;
+
+}
+
+#main1 ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none; 
+} 
+
+#main1 ul li{
+    
+   display: block;
+}  
+
+#main1 ul li a{
+   
+    padding: 10px 45.4px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+}  
+
+#main1 ul li a:link,
+#main1 ul li a:visited {
+    
+    background: #184d66;
+    color: white;
+    text-decoration: none;
+}  
+
+#main1 ul li a:hover {
+    
+    color: white;
+    text-decoration: none;
+    background: orange;
+}  
+
+#main1 ul li a:active {
+    
+    color: white;
+    text-decoration: none;
+    background: orange;
+} 
+
+
+/* end email 2020 */
+
+/* end email 1 milion */
+
+/* end email world */
+
+
+
+
+
+
+
+/* email 2020 */
+
+/* email 1 milion a-z*/
+
+/* email world */
+
+#maina{
+    
+    width: 340px;
+    height: 100%;
+    padding: 0px 20px 30px 20px;
+    margin: 20px 0px 60px 20px;
+    background: #73c3d1;
+    float: left;
+    
+}
+
+#maina h2{
+    
+    font-family: cursive,sans-serif;
+    color: #d2fa09;
+    margin: 20px 0 30px;
+    padding: 0px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.response{
+
+    color: black;
+    font-size: 14px;
+    font-family: cursive,sans-serif;
+    margin: 0px;
+    padding: 15px 0px 10px 0px;
+} 
+
+.gogle2 {
+    
+    width: 100%;
+    height: 90px;
+    background: white;
+    color: black;
+    margin: 35px 20px 40px 0px;
+    float: left;
+}
+
+#article1 {
+    
+    width: 98%;
+    height: 300px;
+    background: white;
+    color: black;
+    margin: 0px 0px 30px 4px; 
+} 
+
+/* end email 2020 */
+
+/* end email 1 milion a-z*/
+
+/* end email world */
+
+
+
+
+
+
+
+
+
+.e {
+    
+    font-size: 20px;
+    text-align: center;
+}
+
+#main, h5{
+    
+    font-size: 23px;
+    color: purple;
+    text-align: center;
+}
+
+#main, p{
+    
+    color: black;
+}
+
+
+
+
+
+
+
+
+/* contextual */
+
+
+#card {
+    
+    display:flex;
+    justify-content:space-between;
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+
+}
+
+.card {
+    
+    margin: 10px 0px 30px 0px;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+
+}
+
+
+.card p{
+    
+    background: white;
+    border: 2px solid #003352;
+    color:black;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 6px 5px;
+    width: 40px;
+    font-size: 6px;
+   
+}
+
+
+/* end contextual */
+
+
+/* airdrop */
+
+
+#airdrops{
+    
+    font-family: cursive;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+#airdrops h2{
+    
+    font-family: cursive,sans-serif;
+    color: #d2fa09;
+    padding: 0px;
+    text-align: center;
+    margin:0px 0px 0px 0px;
+    font-size: 20px;
+
+}
+
+#airdrops p{
+     
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    margin: 10px 30px 20px 10px;
+}
+
+#mainairdrop{
+    
+    width: 100%;
+    height: 100%;
+    padding: 0px 15px;
+    position: relative;
+    left:60px;
+    float: left;
+}
+
+
+.main-main1{
+    
+   width: 100%;
+   height: 100%;
+   background: white;
+   padding: 10px 0px 80px 0px;
+   margin: 0px 0px 40px 0px;
+   display: block;
+} 
+
+
+.main-main1 h3{
+    
+   color: purple;
+   font-family: cursive;
+   text-align: center;
+   font-size: 18px;
+   
+} 
+
+.main-main1, p{
+    
+   font-size:12px;
+   padding: 5px 0px -5px 10px;
+   
+} 
+
+.claim1{
+
+    height: 50px;
+    position: relative;
+    left: 150px;
+    bottom: 0px;
+} 
+
+.main-main1 ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}   
+
+.main-main1 ul li{
+    
+   display: inline-block;
+   position: absolute;
+}  
+
+.main-main1 ul li a{
+   
+    padding: 5px 15px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    display: block;
+}  
+
+.main-main1 ul li a:link,
+.main-main1 ul li a:visited {
+    
+    color: white;
+    text-decoration: none;
+    background: #184d66;
+}  
+
+.main-main1 ul li a:hover {
+    
+    color: white;
+    text-decoration: none;
+    background: #fb5d2e;
+}  
+
+.main-main1 ul li a:active {
+    
+    color: black;
+    text-decoration: none;
+    background: #fb5d2e;
+} 
+
+.banner1200{
+    
+    width:98%;
+    height:100px;
+    background:white;
+    display:block;
+    margin:0px 0px 45px 4px;
+}
+
+
+/* end airdrop */
+
+
+
+
+
+
+
+
+
+
+/* crypto games */
+
+
+#games{
+    
+    font-family: cursive;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+#games h2{
+    
+    font-family: cursive,sans-serif;
+    color: #d2fa09;
+    margin: 20px 0px 10px 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 22px; 
+
+}
+
+#games p{
+     
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    margin: 0px 20px 20px 20px;
+ 
+}
+
+#main product {
+    
+    background: white;
+        
+}
+
+#products {
+    
+    display: block;
+    margin: 0px 0px 40px -70px;
+    text-align: center;
+}
+
+.products, img{
+    
+    width: 150px;
+}
+    
+.product {
+    
+    flex-basis:100%;
+    margin: -2px 10px 60px 70px;
+    padding: 0px;
+}
+
+.product p{
+    
+    background: #042f66;
+    border: 4px solid #645eaf;
+    color:white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 5px;
+    width: 135px;
+    margin:auto;
+
+}
+
+.product p:hover{
+    
+    background: orange;
+}
+
+.cryptoads {
+    
+    width: 100%;
+    height: 170px;
+    background: white;
+    color: black;
+    margin: -20px 0px 82px 0px;
+    display: flex;
+    justify-content:space-between;
+    position: relative;
+    left: 0px;
+}
+
+.cryptoads:hover{
+    
+    background: white;
+    
+}
+
+
+/* end crypto games */
+
+
+
+
+
+
+
+
+
+
+
+/* crypto social media */
+
+
+#social{
+    
+    font-family: cursive;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+#social h2{
+    
+    font-family: cursive,sans-serif;
+    color: #d2fa09;
+    margin: 20px 0px 10px 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 22px; 
+
+}
+
+#social p{
+     
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    margin: 0px 20px 20px 20px;
+ 
+}
+
+#main productt {
+    
+    background: white;
+        
+}
+
+#productss {
+    
+    display: block;
+    margin: 0px 0px 40px -70px;
+    text-align: center;
+}
+
+.productss, img{
+    
+    width: 150px;
+}
+    
+.productt {
+    
+    flex-basis:100%;
+    margin: -2px 10px 60px 70px;
+    padding: 0px;
+}
+
+.productt p{
+    
+    background: #042f66;
+    border: 4px solid #645eaf;
+    color:white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 5px;
+    width: 135px;
+    margin:auto;
+
+}
+
+.productt p:hover{
+    
+    background: orange;
+}
+
+.socialads {
+    
+    width: 100%;
+    height: 170px;
+    background: white;
+    color: black;
+    margin: 0px 0px 82px 0px;
+    position: relative;
+    left:0px;
+    
+    
+}
+
+.socialads:hover{
+    
+    background: white;
+    
+}
+
+
+/* end crypto social media */
+  
+
+
+
+
+
+
+
+/*  */ 
+
+
+#gift {
+    
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.baner81x31 {
+    
+    width: 81px;
+    height: 31px;
+    background: white;
+    margin: 15px 5px 25px 31px;
+    float: left;
+}
+
+.baner100x100 {
+    
+    width: 100px;
+    height: 100px;
+    background: white;
+    margin: 15px 5px 25px 31px;
+    float: left;
+}
+
+.baner125x125 {
+    
+    width: 125px;
+    height: 125px;
+    background: white;
+    margin: 20px 5px 25px 50px;
+    float: left;
+}
+
+.baner150x150{
+    
+    width: 150px;
+    height: 150px;
+    background: white;
+    margin: 20px 5px 25px 27px;
+    float: left;
+}
+
+.baner180x150{
+    
+    width: 150px;
+    height: 150px;
+    background: white;
+    margin: 20px 5px 25px 27px;
+    float: left;
+}
+
+.baner234x60 {
+    
+    width: 234px;
+    height: 60px;
+    background: white;
+    margin: 20px 10px 25px 30px;
+    float: left;
+}
+
+.baner240x60 {
+    
+    width: 240px;
+    height: 60px;
+    background: white;
+    margin: 20px 5px 25px 28px;
+    float: left;
+}
+
+.baner200x200 {
+    
+    width: 200px;
+    height: 200px;
+    background: white;
+    margin: 20px 20px 25px 52px;
+    float: left;
+}
+
+.baner250x250 {
+    
+    width: 250px;
+    height: 250px;
+    background: white;
+    margin: 20px 15px 25px 60px;
+    float: left;
+}
+
+.baner200x300 {
+    
+    width: 200px;
+    height: 300px;
+    background: white;
+    margin: 20px 0px 25px 32px;
+    float: left;
+}
+
+.baner250x300 {
+    
+    width: 250px;
+    height: 300px;
+    background: white;
+    margin: 20px 0px 25px 23px;
+    float: left;
+}
+
+.baner240x400{
+    
+    width: 240px;
+    height: 400px;
+    background: white;
+    margin: 20px 10px 25px 25px;
+    float: left;
+}
+
+.baner300x250 {
+    
+    width: 300px;
+    height: 250px;
+    background: white;
+    margin: 20px 5px 25px 23.5px;
+    float: left;
+}
+
+.baner350x50 {
+    
+    width: 350px;
+    height: 50px;
+    background: white;
+    margin: 20px 5px 25px 49px;
+    float: left;
+}
+
+.baner336x280 {
+    
+    width: 336px;
+    height: 280px;
+    background: white;
+    margin: 20px 5px 25px 62px;
+    float: left;
+}
+
+.baner336x280 {
+    
+    width: 336px;
+    height: 280px;
+    background: white;
+    margin: 20px 5px 25px 62px;
+    float: left;
+}
+
+.baner468x60 {
+    
+    width: 94%;
+    height: 60px;
+    background: white;
+    margin: 20px 30px 25px 13px;
+    float: left;
+}
+
+.baner468x80 {
+    
+    width: 94%;
+    height: 80px;
+    background: white;
+    margin: 20px 30px 25px 15px;
+    float: left;
+}
+
+.baner728x90 {
+    
+    width: 90%;
+    height: 90px;
+    background: white;
+    margin: 20px 10px 25px 37px;
+    float: left;
+
+}
+
+.baner728x300 {
+    
+    width: 90%;
+    height: 300px;
+    background: white;
+    margin: 20px 10px 25px 37px;
+    float: left;
+
+}
+
+.baner80x468 {
+    
+    width: 80px;
+    height: 468px;
+    background: white;
+    margin: 20px 17px 25px 21.2px;
+    float: left;
+}
+
+.baner120x60 {
+    
+    width: 120px;
+    height: 60px;
+    background: white;
+    margin: 20px 10px 25px 34px;
+    float: left;
+}
+
+.baner120x90 {
+
+    width: 120px;
+    height: 90px;
+    background: white;
+    margin: 20px 10px 25px 34px;
+    float: left;
+}
+
+.baner120x240 {
+
+    width: 120px;
+    height: 240px;
+    background: white;
+    margin: 20px 10px 25px 34px;
+    float: left;
+}
+
+.baner120x600 {
+    
+    width: 120px;
+    height: 600px;
+    background: white;
+    margin: 20px 17px 25px 28px;
+    float: left;
+}
+
+.baner160x600 {
+    
+    width: 160px;
+    height: 600px;
+    background: white;
+    margin: 20px 10px 25px 61px;
+    float: left;
+}
+
+.baner300x600 {
+    
+    width: 300px;
+    height: 600px;
+    background: white;
+    margin: 20px 10px 25px 87px;
+    float: left;
+}
+
+.baner930x170 {
+    
+    width: 100%;
+    height: 170px;
+    background: white;
+    margin: 20px 10px 25px 0px;
+    float: left;
+}
+
+.baner1000x90 {
+    
+    width: 100%;
+    height: 90px;
+    background: white;
+    margin: 20px 20px 25px 0px;
+    float: left;
+}
+
+.baner1170x100 {
+    
+    width: 100%;
+    height: 100px;
+    background: white;
+    margin: 20px 20px 25px 0px;
+    float: left;
+}
+
+.baner1200x100 {
+    
+    width: 100%;
+    height: 100px;
+    background: white;
+    margin: 20px 20px 25px 0px;
+    float: left;
+}
+
+/* end BaNNer */ 
+
+
+
+
+
+
+
+/* contact */
+
+
+#main-maincontact1{
+ 
+    margin: 0px 0px 50px 0px;
+    
+} 
+
+#main-maincontact1 h2{
+    
+    text-align:center;
+    font-size: 26px;
+    margin: 0px 0px 0px 0px;
+    color: yellow;
+    
+} 
+
+#main-maincontact1 p{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 14px;
+    color: white;
+    padding:0 10 0 10px;
+    
+}
+
+
+/* end contact */
+
+
+
+
+
+
+
+
+
+/* use policy */
+
+
+#usepolicy{
+ 
+    margin: 0px 0px 50px 0px;
+    
+} 
+
+#usepolicy h2{
+    
+    text-align:center;
+    font-size: 18px;
+    margin: 0px 0px 0px 0px;
+    color: yellow;
+    
+} 
+
+#usepolicy h6{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 16px;
+    padding:0 0 0 20px;
+    
+} 
+
+#usepolicy p{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 14px;
+    color: white;
+    padding:0 10 0 10px;
+    
+} 
+
+
+
+/* end use policy */
+
+
+
+
+/* questionsandanswers */
+
+
+#questionsandanswers{
+ 
+    margin: 0px 0px 50px 0px;
+    
+} 
+
+#questionsandanswers h2{
+    
+    text-align:center;
+    font-size: 18px;
+    margin: 0px 0px 0px 0px;
+    color: yellow;
+    
+} 
+
+#questionsandanswers h6{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 16px;
+    padding:0 0 0 20px;
+    
+} 
+
+#questionsandanswers p{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 14px;
+    color: white;
+    padding:0 10 0 10px;
+    
+}
+
+
+/* end questionsandanswers */
+
+
+
+
+
+
+/* rules */
+
+
+
+#rules{
+ 
+    margin: 0px 0px 50px 0px;
+    
+} 
+
+#rules h2{
+    
+    text-align:center;
+    font-size: 18px;
+    margin: 0px 0px 0px 0px;
+    color: yellow;
+    
+} 
+
+#rules h6{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 16px;
+    padding:0 0 0 20px;
+    color:gold;
+    
+} 
+
+#rules p{
+ 
+    font-family: helvetica,times new roman,cursive;
+    font-size: 14px;
+    color: white;
+    padding:0 0 0 20px;
+    
+}
+
+/* end rules */
+
+
+
+
+
+a:link
+a:visited{
+   
+    color: black;
+} 
+
+
+a:hover
+a:active{
+   
+    color: aqua;
+} 
+ 
+    
+}
+     
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.navbar-fixed{
+    top:0px;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+   
+}
+
+*/
+
+
+/*
+
+.navbar-fixed{
+    top:0px;
+    z-index: 100;
+    position: fixed;
+    height: 50px;
+   
+   
+}
+
+*/
+
+
+/*
+.navbar-fixed{
+    top:0px;
+    z-index: 100;
+    position: fixed;
+    height: 50px;
+   
+   
+}
+
+*/
+
+
+
+
+/*
+
+.navbar-fixed{
+    top:0px;
+    z-index: 100;
+    position: fixed;
+    height: 52px;
+   
+   
+}
+
+
+*/
+
+
+
+/*
+
+    
+.navbar-fixed{
+    top:0px;
+    z-index: 100;
+    position: fixed;
+    height: 50px;
+    width: auto;
+   
+   
+}
+
+
+*/
+

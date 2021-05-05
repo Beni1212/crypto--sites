@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow:
+
+Sitemap: https://crypto--sites.000webhostapp.com/index.html
